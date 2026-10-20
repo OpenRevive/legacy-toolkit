@@ -1,0 +1,32 @@
+{
+  "codex": {
+    "cache": "/Users/oz/.codex/plugins/cache/openrevive-local/openrevive/0.5.0",
+    "owners": 5,
+    "uiNodes": 88,
+    "floatingRoute": {
+      "action": "tap",
+      "route": "vnc"
+    },
+    "actualActionRoute": "semantic",
+    "appReceipt": {
+      "visibleResult": "Applied 2: OR-066bd49e51 Привет 日本語",
+      "clicks": 2,
+      "text": "OR-066bd49e51 Привет 日本語"
+    }
+  },
+  "claude": {
+    "cache": "/Users/oz/.claude/plugins/cache/openrevive-local/openrevive/0.5.0",
+    "owners": 5,
+    "uiNodes": 88,
+    "floatingRoute": {
+      "action": "tap",
+      "route": "vnc"
+    },
+    "actualActionRoute": "semantic",
+    "appReceipt": {
+      "visibleResult": "Applied 3: OR-066bd49e51 Привет 日本語",
+      "clicks": 3,
+      "text": "OR-066bd49e51 Привет 日本語"
+    }
+  }
+}

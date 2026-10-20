@@ -1,0 +1,18 @@
+{
+  "positive": {
+    "ipv4": "45.8.249.60",
+    "port": 443,
+    "connected": true,
+    "errno": 0,
+    "elapsedSeconds": 1.06364
+  },
+  "ct127": {
+    "ipv4": "192.168.0.129",
+    "port": 443,
+    "connected": false,
+    "errno": 60,
+    "elapsedSeconds": 6.037796
+  },
+  "sourceSHA256": "8d48edb874013963a54174bda9c65e25955cfd11a08bf4a8ebf53aa835f293bf",
+  "udid": "7de8488b450394ab6417308beffa23e8c2f95f14"
+}

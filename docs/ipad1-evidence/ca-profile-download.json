@@ -1,0 +1,6 @@
+{
+  "url": "http://openrevive.org/openrevive-ca.mobileconfig",
+  "profileIdentifier": "org.openrevive.lab.ca",
+  "profileSHA256": "9adae791c56624a63d58d4744c09d332f2be2d20d7c71cf240e1d21c84fc9da0",
+  "certificateSHA256": "a433e9548b6628e0aecbf09378019ed231337949c20f00510aeaa25597fe6923"
+}

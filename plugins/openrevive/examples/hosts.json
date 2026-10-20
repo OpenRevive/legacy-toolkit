@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hosts": {
+    "blacklion": {
+      "address": "blacklion.local",
+      "user": "oz",
+      "identity": "~/.ssh/id_rsa_blackmac",
+      "legacy_rsa": true,
+      "remote_root": "~/Library/Application Support/OpenRevive"
+    }
+  }
+}

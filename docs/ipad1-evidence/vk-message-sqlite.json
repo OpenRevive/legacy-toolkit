@@ -1,0 +1,98 @@
+{
+  "messages": [
+    {
+      "id": 10006,
+      "sender_id": 1001,
+      "recipient_id": 1002,
+      "body": "С iPad 1 d319adb0 & <VK>",
+      "sent_at": 1792132846,
+      "is_read": 1,
+      "title": "",
+      "message_type": 1
+    },
+    {
+      "id": 10007,
+      "sender_id": 1002,
+      "recipient_id": 1001,
+      "body": "Ответ для iPad 1 d319adb0 & <VK>\nВторая строка.",
+      "sent_at": 1792132895,
+      "is_read": 1,
+      "title": "",
+      "message_type": 0
+    }
+  ],
+  "events": [
+    {
+      "seq": 17,
+      "user_id": 1001,
+      "kind": "message_created",
+      "message_id": 10006,
+      "peer_id": 1002,
+      "is_read": 0,
+      "created_at": 1792132846
+    },
+    {
+      "seq": 18,
+      "user_id": 1002,
+      "kind": "message_created",
+      "message_id": 10006,
+      "peer_id": 1001,
+      "is_read": 0,
+      "created_at": 1792132846
+    },
+    {
+      "seq": 19,
+      "user_id": 1002,
+      "kind": "message_read",
+      "message_id": 10006,
+      "peer_id": 1001,
+      "is_read": 1,
+      "created_at": 1792132895
+    },
+    {
+      "seq": 20,
+      "user_id": 1001,
+      "kind": "message_read",
+      "message_id": 10006,
+      "peer_id": 1002,
+      "is_read": 1,
+      "created_at": 1792132895
+    },
+    {
+      "seq": 21,
+      "user_id": 1002,
+      "kind": "message_created",
+      "message_id": 10007,
+      "peer_id": 1001,
+      "is_read": 0,
+      "created_at": 1792132895
+    },
+    {
+      "seq": 22,
+      "user_id": 1001,
+      "kind": "message_created",
+      "message_id": 10007,
+      "peer_id": 1002,
+      "is_read": 0,
+      "created_at": 1792132895
+    },
+    {
+      "seq": 23,
+      "user_id": 1001,
+      "kind": "message_read",
+      "message_id": 10007,
+      "peer_id": 1002,
+      "is_read": 1,
+      "created_at": 1792132897
+    },
+    {
+      "seq": 24,
+      "user_id": 1002,
+      "kind": "message_read",
+      "message_id": 10007,
+      "peer_id": 1001,
+      "is_read": 1,
+      "created_at": 1792132897
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "sequentialPeak": 1,
+  "fivePeak": 5,
+  "pinchInScale": 0.4012345671653748,
+  "pinchOutScale": 2.588235378265381,
+  "pinchInEvents": 24,
+  "pinchOutEvents": 28,
+  "allContactsReleased": true,
+  "invalidGestureRejected": true,
+  "wrongOwnerRejected": true
+}

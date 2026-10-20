@@ -1,0 +1,9 @@
+{
+  "requested": "IPAD-VNC-69c7be636a3a",
+  "actual": "",
+  "retained": false,
+  "framebuffer": [
+    1024,
+    768
+  ]
+}

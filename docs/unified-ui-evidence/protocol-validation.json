@@ -1,0 +1,93 @@
+{
+  "schemaAndAmbiguityNegatives": true,
+  "nativeRejected": [
+    "stale-desktop",
+    "wrong-node",
+    "wrong-node",
+    "wrong-route"
+  ],
+  "nativePositive": {
+    "desktopConsumed": true,
+    "applicationState": 0,
+    "containerPath": "/var/mobile/Applications/C41CA43B-3D38-4B6B-8E18-D1BB3C6F3BDE",
+    "ownerPid": 6890,
+    "bridgeVersion": "0.5.0",
+    "layoutToken": "c429de03556280aa",
+    "session": "495AD78B-0E27-402D-9B47-1F23A0772101",
+    "bundleId": "org.openrevive.TouchProbe",
+    "layoutTruncated": 0,
+    "action": "press",
+    "dispatched": true,
+    "requiresVerification": true,
+    "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+    "windows": [
+      {
+        "actions": [
+          "resolve-tap"
+        ],
+        "id": "w0",
+        "visible": true,
+        "label": "",
+        "interactive": true,
+        "enabled": true,
+        "identity": "0x1f59c5f0",
+        "framePixels": [
+          0,
+          0,
+          640,
+          960
+        ],
+        "framePoints": [
+          0,
+          0,
+          320,
+          480
+        ],
+        "role": "window",
+        "labelSource": "accessibility-or-control",
+        "identifier": "",
+        "value": "",
+        "secure": false,
+        "windowLevel": 0,
+        "class": "UIWindow"
+      },
+      {
+        "actions": [
+          "resolve-tap"
+        ],
+        "id": "w1",
+        "visible": true,
+        "label": "",
+        "interactive": true,
+        "enabled": true,
+        "identity": "0x1f57d100",
+        "framePixels": [
+          0,
+          0,
+          640,
+          960
+        ],
+        "framePoints": [
+          0,
+          0,
+          320,
+          480
+        ],
+        "role": "window",
+        "labelSource": "accessibility-or-control",
+        "identifier": "",
+        "value": "",
+        "secure": false,
+        "windowLevel": 1000,
+        "class": "UIStatusBarWindow"
+      }
+    ],
+    "ok": true,
+    "ownerKind": "application",
+    "pid": 6890,
+    "route": "semantic",
+    "ownerBundleId": "org.openrevive.TouchProbe"
+  },
+  "consumedRejected": "stale-desktop",
+  "overlayWithoutForegroundChangeRejected": true
+}

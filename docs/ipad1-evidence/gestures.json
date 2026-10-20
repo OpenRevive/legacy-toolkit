@@ -1,0 +1,1180 @@
+{
+  "1": {
+    "dispatch": {
+      "ok": true,
+      "frames": 13,
+      "elapsedSeconds": 0.4170426250000219,
+      "session": "B6577451-78FE-4E8C-9E6A-E4D37DC3C3F4",
+      "maxContactsSent": 1,
+      "dispatched": true,
+      "requiresVerification": true
+    },
+    "receipt": {
+      "pinchEvents": 0,
+      "pinchScale": 1,
+      "trace": [
+        {
+          "time": 1327.917391875,
+          "phase": "began",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 0,
+              "x": 70
+            }
+          ],
+          "active": 1
+        },
+        {
+          "time": 1328.324425875,
+          "phase": "ended",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 3,
+              "x": 70
+            }
+          ],
+          "active": 0
+        }
+      ],
+      "maxSimultaneous": 1
+    }
+  },
+  "2": {
+    "dispatch": {
+      "ok": true,
+      "frames": 13,
+      "elapsedSeconds": 0.4171632499999305,
+      "session": "B6577451-78FE-4E8C-9E6A-E4D37DC3C3F4",
+      "maxContactsSent": 2,
+      "dispatched": true,
+      "requiresVerification": true
+    },
+    "receipt": {
+      "pinchEvents": 0,
+      "pinchScale": 1,
+      "trace": [
+        {
+          "time": 1340.412171916,
+          "phase": "began",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1cf760",
+              "phase": 0,
+              "x": 200
+            },
+            {
+              "y": 165,
+              "id": "0x1cbfb0",
+              "phase": 0,
+              "x": 70
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1340.819653083,
+          "phase": "ended",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1cf760",
+              "phase": 3,
+              "x": 200
+            },
+            {
+              "y": 165,
+              "id": "0x1cbfb0",
+              "phase": 3,
+              "x": 70
+            }
+          ],
+          "active": 0
+        }
+      ],
+      "maxSimultaneous": 2
+    }
+  },
+  "5": {
+    "dispatch": {
+      "ok": true,
+      "frames": 13,
+      "elapsedSeconds": 0.4167510833335655,
+      "session": "B6577451-78FE-4E8C-9E6A-E4D37DC3C3F4",
+      "maxContactsSent": 5,
+      "dispatched": true,
+      "requiresVerification": true
+    },
+    "receipt": {
+      "pinchEvents": 0,
+      "pinchScale": 1,
+      "trace": [
+        {
+          "time": 1351.972396625,
+          "phase": "began",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1cf850",
+              "phase": 0,
+              "x": 200
+            },
+            {
+              "y": 165,
+              "id": "0x1d0960",
+              "phase": 0,
+              "x": 460
+            },
+            {
+              "y": 165,
+              "id": "0x1d0f80",
+              "phase": 0,
+              "x": 590
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 0,
+              "x": 330
+            },
+            {
+              "y": 165,
+              "id": "0x1c5430",
+              "phase": 0,
+              "x": 70
+            }
+          ],
+          "active": 5
+        },
+        {
+          "time": 1352.379064458,
+          "phase": "ended",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1cf850",
+              "phase": 3,
+              "x": 200
+            },
+            {
+              "y": 165,
+              "id": "0x1d0960",
+              "phase": 3,
+              "x": 460
+            },
+            {
+              "y": 165,
+              "id": "0x1d0f80",
+              "phase": 3,
+              "x": 590
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 3,
+              "x": 330
+            },
+            {
+              "y": 165,
+              "id": "0x1c5430",
+              "phase": 3,
+              "x": 70
+            }
+          ],
+          "active": 0
+        }
+      ],
+      "maxSimultaneous": 5
+    }
+  },
+  "close": {
+    "dispatch": {
+      "ok": true,
+      "frames": 25,
+      "elapsedSeconds": 0.8187935833332176,
+      "session": "B6577451-78FE-4E8C-9E6A-E4D37DC3C3F4",
+      "maxContactsSent": 2,
+      "dispatched": true,
+      "requiresVerification": true
+    },
+    "receipt": {
+      "pinchEvents": 25,
+      "pinchScale": 0.3847787082195282,
+      "trace": [
+        {
+          "time": 1364.686671208,
+          "phase": "began",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 0,
+              "x": 164
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 0,
+              "x": 564
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.720598875,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 169.4166
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 558.5834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.753882041,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 174.8334
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 553.1666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.787292625,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 180.25
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 547.75
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.820653916,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 185.6666
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 542.3334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.854125625,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 191.0834
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 536.9166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.887548166,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 196.5
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 531.5
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.920914,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 201.9166
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 526.0834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.954414583,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 207.3334
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 520.6666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1364.98886825,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 212.75
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 515.25
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.022166458,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 218.1666
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 509.8334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.062849041,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 223.5834
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 504.4166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.089197,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 229
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 499
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.130155166,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 234.4166
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 493.5834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.159121625,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 239.8334
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 488.1666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.196614083,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 245.25
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 482.75
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.22193325,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 250.6666
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 477.3334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.255996083,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 256.0834
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 471.9166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.289512375,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 261.5
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 466.5
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.322867125,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 266.9166
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 461.0834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.356332458,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 272.3334
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 455.6666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.38974425,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 277.75
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 450.25
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.42304325,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 283.1666
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 444.8334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.463905875,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 1,
+              "x": 288.5834
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 439.4166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1365.493470125,
+          "phase": "ended",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x179080",
+              "phase": 3,
+              "x": 294
+            },
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 3,
+              "x": 434
+            }
+          ],
+          "active": 0
+        }
+      ],
+      "maxSimultaneous": 2
+    }
+  },
+  "open": {
+    "dispatch": {
+      "ok": true,
+      "frames": 25,
+      "elapsedSeconds": 0.8168140833331563,
+      "session": "B6577451-78FE-4E8C-9E6A-E4D37DC3C3F4",
+      "maxContactsSent": 2,
+      "dispatched": true,
+      "requiresVerification": true
+    },
+    "receipt": {
+      "pinchEvents": 25,
+      "pinchScale": 2.629505157470703,
+      "trace": [
+        {
+          "time": 1378.359038291,
+          "phase": "began",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 0,
+              "x": 294
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 0,
+              "x": 434
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.393777125,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 288.5834
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 439.4166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.433495708,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 283.1666
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 444.8334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.463829833,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 277.75
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 450.25
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.49713275,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 272.3334
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 455.6666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.533483791,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 266.9166
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 461.0834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.566353208,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 261.5
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 466.5
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.62028475,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 256.0834
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 471.9166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.640092791,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 250.6666
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 477.3334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.674680625,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 245.25
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 482.75
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.698185333,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 239.8334
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 488.1666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.7283885,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 234.4166
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 493.5834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.766021916,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 229
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 499
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.799619208,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 223.5834
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 504.4166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.832883833,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 218.1666
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 509.8334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.86255825,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 212.75
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 515.25
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.895808666,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 207.3334
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 520.6666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.930127041,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 201.9166
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 526.0834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.964669666,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 196.5
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 531.5
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1378.995978791,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 191.0834
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 536.9166
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1379.030572,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 185.6666
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 542.3334
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1379.064211166,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 180.25
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 547.75
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1379.09630275,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 174.8334
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 553.1666
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1379.130781833,
+          "phase": "moved",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 1,
+              "x": 169.4166
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 1,
+              "x": 558.5834
+            }
+          ],
+          "active": 2
+        },
+        {
+          "time": 1379.163995333,
+          "phase": "ended",
+          "touches": [
+            {
+              "y": 165,
+              "id": "0x1c9e10",
+              "phase": 3,
+              "x": 164
+            },
+            {
+              "y": 165,
+              "id": "0x199df0",
+              "phase": 3,
+              "x": 564
+            }
+          ],
+          "active": 0
+        }
+      ],
+      "maxSimultaneous": 2
+    }
+  }
+}

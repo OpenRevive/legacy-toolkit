@@ -1,0 +1,8 @@
+{
+  "removed": true,
+  "originalProfilesPreserved": [
+    "DigiCert Global Root G2",
+    "ISRG Root X1"
+  ],
+  "remainingLabCA": false
+}

@@ -1,0 +1,21 @@
+{
+  "outgoing": {
+    "mid": 10006,
+    "uid": 1001,
+    "from_id": 1001,
+    "to_id": 1002,
+    "body": "С iPad 1 d319adb0 &amp; &lt;VK&gt;",
+    "date": 1792132846,
+    "read_state": 0,
+    "out": 0,
+    "title": ""
+  },
+  "incoming": {
+    "id": 10007,
+    "text": "Ответ для iPad 1 d319adb0 & <VK>\nВторая строка."
+  },
+  "triggeredAt": 1792132895.220004,
+  "capturedAt": 1792133970.589037,
+  "pid": 2814,
+  "noUIActionsBetweenAPIAndCapture": true
+}

@@ -1,0 +1,32 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 46;
+ objects = {
+  A00000000000000000000001 = {isa = PBXBuildFile; fileRef = A00000000000000000000002; };
+  A00000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchProbe.m; sourceTree = "<group>"; };
+  A00000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchProbe-Info.plist"; sourceTree = "<group>"; };
+  A00000000000000000000004 = {isa = PBXFileReference; explicitFileType = wrapper.application; path = OpenReviveTouchProbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  A00000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+  A00000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+  A00000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+  A00000000000000000000008 = {isa = PBXBuildFile; fileRef = A00000000000000000000005; };
+  A00000000000000000000009 = {isa = PBXBuildFile; fileRef = A00000000000000000000006; };
+  A0000000000000000000000A = {isa = PBXBuildFile; fileRef = A00000000000000000000007; };
+  A0000000000000000000000B = {isa = PBXGroup; children = (A00000000000000000000002, A00000000000000000000003, A00000000000000000000005, A00000000000000000000006, A00000000000000000000007, A0000000000000000000000C); sourceTree = "<group>"; };
+  A0000000000000000000000C = {isa = PBXGroup; children = (A00000000000000000000004); name = Products; sourceTree = "<group>"; };
+  A0000000000000000000000D = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000001); runOnlyForDeploymentPostprocessing = 0; };
+  A0000000000000000000000E = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000008, A00000000000000000000009, A0000000000000000000000A); runOnlyForDeploymentPostprocessing = 0; };
+  A0000000000000000000000F = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  A00000000000000000000010 = {isa = PBXNativeTarget; buildConfigurationList = A00000000000000000000015; buildPhases = (A0000000000000000000000D, A0000000000000000000000E, A0000000000000000000000F); buildRules = (); dependencies = (); name = OpenReviveTouchProbe; productName = OpenReviveTouchProbe; productReference = A00000000000000000000004; productType = "com.apple.product-type.application"; };
+  A00000000000000000000011 = {isa = PBXProject; attributes = {LastUpgradeCheck = 0460; }; buildConfigurationList = A00000000000000000000014; compatibilityVersion = "Xcode 3.2"; developmentRegion = English; hasScannedForEncodings = 0; knownRegions = (en); mainGroup = A0000000000000000000000B; productRefGroup = A0000000000000000000000C; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000010); };
+  A00000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_OBJC_ARC = NO; GCC_C_LANGUAGE_STANDARD = gnu99; IPHONEOS_DEPLOYMENT_TARGET = 5.0; SDKROOT = iphoneos; }; name = Debug; };
+  A00000000000000000000013 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_OBJC_ARC = NO; GCC_C_LANGUAGE_STANDARD = gnu99; IPHONEOS_DEPLOYMENT_TARGET = 5.0; SDKROOT = iphoneos; }; name = Release; };
+  A00000000000000000000014 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000012, A00000000000000000000013); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A00000000000000000000015 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000016, A00000000000000000000017); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A00000000000000000000016 = {isa = XCBuildConfiguration; buildSettings = {ARCHS = "$(ARCHS_STANDARD_32_BIT)"; CODE_SIGN_IDENTITY = "iPhone Developer"; GCC_OPTIMIZATION_LEVEL = 0; INFOPLIST_FILE = "TouchProbe-Info.plist"; PRODUCT_NAME = OpenReviveTouchProbe; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+  A00000000000000000000017 = {isa = XCBuildConfiguration; buildSettings = {ARCHS = "$(ARCHS_STANDARD_32_BIT)"; CODE_SIGN_IDENTITY = "iPhone Developer"; INFOPLIST_FILE = "TouchProbe-Info.plist"; PRODUCT_NAME = OpenReviveTouchProbe; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+ };
+ rootObject = A00000000000000000000011;
+}

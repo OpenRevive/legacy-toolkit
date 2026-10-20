@@ -1,0 +1,13 @@
+openrevive.test:53 {
+    errors
+    log
+    file /etc/coredns/openrevive.test.zone
+}
+
+.:53 {
+    errors
+    log
+    template IN ANY {
+        rcode REFUSED
+    }
+}

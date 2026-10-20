@@ -1,0 +1,17 @@
+{
+  "name": "openrevive",
+  "version": "0.8.0",
+  "description": "MCP tools and a skill for legacy Mac AX, screenshots, Xcode and USB iPhone UIKit, SpringBoard, AssistiveTouch and multitouch.",
+  "author": {
+    "name": "oz"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "OpenRevive",
+    "shortDescription": "MCP control for legacy Macs and USB iPhones",
+    "longDescription": "Direct MCP tools for desktop AX, inline screenshots, old Xcode deployment, unified iPhone UIKit/SpringBoard/AssistiveTouch trees, guarded input and concurrent HID multitouch on an existing iOS 6 jailbreak.",
+    "category": "Developer Tools"
+  }
+}

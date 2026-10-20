@@ -1,0 +1,23 @@
+{
+  "udid": "7de8488b450394ab6417308beffa23e8c2f95f14",
+  "nonce": "IPAD-VNC-69c7be636a3a",
+  "receipt": {
+    "visibleResult": "Applied 1: IPAD-VNC-69c7be636a3a",
+    "clicks": 1,
+    "text": "IPAD-VNC-69c7be636a3a"
+  },
+  "state": {
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "uid": 0,
+    "screenLocked": false,
+    "passcodeEnabled": false,
+    "lockStateAvailable": true
+  },
+  "framebuffer": [
+    768,
+    1024
+  ],
+  "vncKeyboardRetained": false,
+  "exit": 7,
+  "timeout": 124
+}

@@ -1,0 +1,750 @@
+{
+  "udid": "7de8488b450394ab6417308beffa23e8c2f95f14",
+  "targets": {
+    "hosts": [
+      {
+        "host": "blacklion",
+        "address": "blacklion.local",
+        "user": "oz"
+      }
+    ],
+    "usb": {
+      "muxEmptyButUSBPresent": false,
+      "socket": "/var/run/usbmuxd",
+      "devices": [
+        {
+          "connection": "USB",
+          "serial": "7de8488b450394ab6417308beffa23e8c2f95f14",
+          "deviceId": 7,
+          "productId": 4762
+        },
+        {
+          "connection": "USB",
+          "serial": "0000000000000000000000000000000000000000",
+          "deviceId": 2,
+          "productId": 4759
+        }
+      ],
+      "physicalDevices": [
+        {
+          "vendorId": "apple_vendor_id",
+          "serial": "7de8488b450394ab6417308beffa23e8c2f95f14",
+          "speed": "high_speed",
+          "name": "iPad",
+          "productId": "0x129a"
+        },
+        {
+          "vendorId": "apple_vendor_id",
+          "serial": "0000000000000000000000000000000000000000",
+          "speed": "full_speed",
+          "name": "iPhone",
+          "productId": "0x1297"
+        }
+      ]
+    }
+  },
+  "build": {
+    "exitCode": 0,
+    "stdout": "{\n  \"path\": \"/Users/oz/Projects/OpenRevive/.artifacts/ipad1/mcp-build/OpenReviveTouchProbe.ipa\",\n  \"bytes\": 13368,\n  \"sha256\": \"2ff5f5530449c50880f9beac719e3a51bcbfbd5f813f0b9cd0c0adfd69766c6d\"\n}\n",
+    "stderr": "",
+    "stdoutBytes": 196,
+    "stderrBytes": 0,
+    "truncated": false
+  },
+  "install": {
+    "exitCode": 0,
+    "stdout": "Copying '/Users/oz/Projects/OpenRevive/.artifacts/ipad1/mcp-build/OpenReviveTouchProbe.ipa' to device... DONE.\nInstalling 'org.openrevive.TouchProbe'\n\rInstall: TakingInstallLock (0%)\n\rInstall: CreatingStagingDirectory (5%)\n\rInstall: ExtractingPackage (15%)\n\rInstall: InspectingPackage (20%)\n\rInstall: PreflightingApplication (30%)\n\rInstall: VerifyingApplication (40%)\n\rInstall: CreatingContainer (50%)\n\rInstall: InstallingApplication (60%)\n\rInstall: PostflightingApplication (70%)\n\rInstall: SandboxingApplication (80%)\n\rInstall: GeneratingApplicationMap (90%)\n\rInstall: Complete\n",
+    "stderr": "WARNING: could not locate iTunesMetadata.plist in archive!\nWARNING: could not locate Payload/OpenReviveTouchProbe.app/SC_Info/OpenReviveTouchProbe.sinf in archive!\n",
+    "stdoutBytes": 579,
+    "stderrBytes": 164,
+    "truncated": false
+  },
+  "status": {
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "uid": 0,
+    "screenLocked": false,
+    "passcodeEnabled": false,
+    "lockStateAvailable": true
+  },
+  "coverage": {
+    "enumeratedProcesses": 39,
+    "bridgedProcesses": 2,
+    "capturedProcesses": 2,
+    "completeForKnownScreenOwners": true,
+    "completeForBridgedOwners": false,
+    "unbridgedUICandidates": [
+      {
+        "error": "Bridge request failed: -2",
+        "name": "VKontakte",
+        "backgroundApplication": true,
+        "executable": "/var/mobile/Applications/17A4D13F-E88D-42BB-B3C2-58737623E3B9/VKontakte.app/VKontakte",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.vk.VKApp",
+        "pid": 4579
+      },
+      {
+        "name": "imagent",
+        "backgroundApplication": true,
+        "executable": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent",
+        "uiCandidate": true,
+        "status": "no-endpoint",
+        "bundleId": "com.apple.imagent",
+        "pid": 46
+      }
+    ],
+    "unavailableTrees": [],
+    "unavailableEndpoints": [
+      {
+        "error": "Bridge request failed: -2",
+        "name": "VKontakte",
+        "backgroundApplication": true,
+        "executable": "/var/mobile/Applications/17A4D13F-E88D-42BB-B3C2-58737623E3B9/VKontakte.app/VKontakte",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.vk.VKApp",
+        "pid": 4579
+      }
+    ],
+    "criticalUnavailableEndpoints": [],
+    "truncatedOwners": [],
+    "occlusionModel": "iOS6-window-level-plus-live-hit-tests; unknown unbridged UI has no inferred tree",
+    "allKernelProcessesHaveUITrees": false
+  },
+  "receipt": {
+    "visibleResult": "Applied 1: IPAD-MCP Привет 日本語 1792134151176",
+    "clicks": 1,
+    "text": "IPAD-MCP Привет 日本語 1792134151176"
+  },
+  "screen": {
+    "bytes": 48734,
+    "sha256": "8f3548f9c1a9f338dd34be588d4d8d2491c411b0bde4cba812df64f289ba5e3f",
+    "udid": "7de8488b450394ab6417308beffa23e8c2f95f14",
+    "target": "iphone",
+    "width": 768,
+    "height": 1024,
+    "coordinateSystem": "framebuffer pixels",
+    "capturedAt": 1792134165.38851
+  },
+  "gesture": {
+    "ok": true,
+    "frames": 22,
+    "elapsedSeconds": 0.712461041665847,
+    "session": "1E4CCE3D-5AD0-4592-B35D-158E5CC5F08F",
+    "maxContactsSent": 2,
+    "dispatched": true,
+    "requiresVerification": true
+  },
+  "touch": {
+    "pinchEvents": 22,
+    "pinchScale": 3.148743629455566,
+    "trace": [
+      {
+        "time": 4654.529657083,
+        "phase": "began",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 0,
+            "x": 450
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 0,
+            "x": 280
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.563499083,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 461.9046
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 272.381
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.603225083,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 473.8096
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 264.7618
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.633346333,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 485.7143
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 257.1429
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.668376083,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 497.619
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 249.5239
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.702017791,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 509.5239
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 241.9047
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.759104625,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 521.4286
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 234.2857
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.7777045,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 533.3332
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 226.6667
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.822401333,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 545.2382
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 219.0475
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.838689041,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 557.1429
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 211.4286
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.869866208,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 569.0475
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 203.8096
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.899891666,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 580.9525
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 196.1904
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.93292575,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 592.8571
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 188.5714
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.966592125,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 604.7618
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 180.9525
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4654.998462416,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 616.6668
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 173.3333
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4655.032878833,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 628.5714
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 165.7143
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4655.066648125,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 640.4761
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 158.0953
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4655.100031208,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 652.381
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 150.4761
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4655.133129041,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 664.2857
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 142.8571
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4655.167465833,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 676.1904
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 135.2382
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4655.198597666,
+        "phase": "moved",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 1,
+            "x": 688.0953
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 1,
+            "x": 127.619
+          }
+        ],
+        "active": 2
+      },
+      {
+        "time": 4655.234483875,
+        "phase": "ended",
+        "touches": [
+          {
+            "y": 295,
+            "id": "0x132d50",
+            "phase": 3,
+            "x": 700
+          },
+          {
+            "y": 295,
+            "id": "0x1df030",
+            "phase": 3,
+            "x": 120
+          }
+        ],
+        "active": 0
+      }
+    ],
+    "maxSimultaneous": 2
+  },
+  "exit": {
+    "exitCode": 7,
+    "stdout": "ipad-exit",
+    "stderr": "",
+    "stdoutBytes": 9,
+    "stderrBytes": 0,
+    "truncated": false,
+    "error": "Command failed; inspect exitCode/stdout/stderr before retrying"
+  },
+  "timeout": {
+    "exitCode": 124,
+    "stdout": "",
+    "stderr": "",
+    "stdoutBytes": 0,
+    "stderrBytes": 0,
+    "truncated": false,
+    "error": "Command failed; inspect exitCode/stdout/stderr before retrying"
+  },
+  "finalScreen": {
+    "bytes": 50418,
+    "sha256": "5fd724650c6bde1440663c7cc3fdb564fe142dcc0e35ba6c61e2aa160ce5e532",
+    "udid": "7de8488b450394ab6417308beffa23e8c2f95f14",
+    "target": "iphone",
+    "width": 768,
+    "height": 1024,
+    "coordinateSystem": "framebuffer pixels",
+    "capturedAt": 1792134186.2897139
+  },
+  "workflow": {
+    "exitCode": 0,
+    "stdout": "{\n  \"udid\": \"7de8488b450394ab6417308beffa23e8c2f95f14\",\n  \"DeviceName\": \"oz’s iPad\",\n  \"ProductType\": \"iPad1,1\",\n  \"ProductVersion\": \"5.1.1\",\n  \"BuildVersion\": \"9B206\",\n  \"CPUArchitecture\": \"armv7\",\n  \"ActivationState\": \"Activated\",\n  \"PasswordProtected\": \"false\",\n  \"battery\": {\n    \"BatteryCurrentCapacity\": 26,\n    \"BatteryIsCharging\": true,\n    \"ExternalChargeCapable\": true,\n    \"ExternalConnected\": true,\n    \"FullyCharged\": false\n  }\n}\n",
+    "stderr": "",
+    "stdoutBytes": 445,
+    "stderrBytes": 0,
+    "truncated": false
+  },
+  "ok": true,
+  "timings": [
+    {
+      "tool": "list_targets",
+      "seconds": 1.397542
+    },
+    {
+      "tool": "run_workflow",
+      "seconds": 2.223985
+    },
+    {
+      "tool": "run_workflow",
+      "seconds": 2.92275
+    },
+    {
+      "tool": "iphone_input",
+      "seconds": 2.030054
+    },
+    {
+      "tool": "get_status",
+      "seconds": 1.07057
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.382506
+    },
+    {
+      "tool": "read_ui_tree",
+      "seconds": 0.001119
+    },
+    {
+      "tool": "find_ui",
+      "seconds": 0.000818
+    },
+    {
+      "tool": "act_ui",
+      "seconds": 1.91534
+    },
+    {
+      "tool": "read_ui_tree",
+      "seconds": 0.001681
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.603718
+    },
+    {
+      "tool": "find_ui",
+      "seconds": 0.001545
+    },
+    {
+      "tool": "act_ui",
+      "seconds": 1.348389
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.370688
+    },
+    {
+      "tool": "find_ui",
+      "seconds": 0.001266
+    },
+    {
+      "tool": "act_ui",
+      "seconds": 1.375779
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.586375
+    },
+    {
+      "tool": "find_ui",
+      "seconds": 0.001929
+    },
+    {
+      "tool": "act_ui",
+      "seconds": 1.480387
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.584972
+    },
+    {
+      "tool": "read_file",
+      "seconds": 0.326608
+    },
+    {
+      "tool": "get_screenshot",
+      "seconds": 1.612757
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.49139
+    },
+    {
+      "tool": "find_ui",
+      "seconds": 0.001146
+    },
+    {
+      "tool": "act_ui",
+      "seconds": 1.3615
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.53905
+    },
+    {
+      "tool": "iphone_gesture",
+      "seconds": 2.842574
+    },
+    {
+      "tool": "read_file",
+      "seconds": 0.390239
+    },
+    {
+      "tool": "run_command",
+      "seconds": 1.099921
+    },
+    {
+      "tool": "run_command",
+      "seconds": 1.007582
+    },
+    {
+      "tool": "run_command",
+      "seconds": 1.52912
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.515712
+    },
+    {
+      "tool": "iphone_system_control",
+      "seconds": 2.226731
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 2.051458
+    },
+    {
+      "tool": "iphone_system_control",
+      "seconds": 2.089871
+    },
+    {
+      "tool": "get_screenshot",
+      "seconds": 1.752042
+    },
+    {
+      "tool": "run_workflow",
+      "seconds": 4.401996
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "nonce": "UNIFIED-48b502dafd Привет 日本語",
+  "appReceipt": {
+    "visibleResult": "Applied 1: UNIFIED-48b502dafd Привет 日本語",
+    "clicks": 1,
+    "text": "UNIFIED-48b502dafd Привет 日本語"
+  },
+  "editRoute": "semantic",
+  "buttonRoute": "semantic",
+  "dialogRoute": "hid",
+  "dialogReceipt": {
+    "accepted": 1,
+    "nonce": "ced1b487946691a3de9e529011226dd5",
+    "error": 0,
+    "responseFlags": 0
+  },
+  "iconRoute": "hid",
+  "coveredNodeRejected": true,
+  "changedScreenRejected": true,
+  "changedForegroundRejected": true,
+  "suspendedBackground": [
+    {
+      "error": "Bridge request failed: -2",
+      "name": "OpenReviveTouchP",
+      "backgroundApplication": true,
+      "executable": "/var/mobile/Applications/C41CA43B-3D38-4B6B-8E18-D1BB3C6F3BDE/OpenReviveTouchProbe.app/OpenReviveTouchProbe",
+      "uiCandidate": true,
+      "status": "unavailable",
+      "bundleId": "org.openrevive.TouchProbe",
+      "pid": 6890
+    }
+  ]
+}

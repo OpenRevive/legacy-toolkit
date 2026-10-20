@@ -1,0 +1,17 @@
+{
+  "appScreen": [
+    0,
+    0,
+    320,
+    480
+  ],
+  "physicalScreen": [
+    0,
+    0,
+    768,
+    1024
+  ],
+  "nativeTapRefused": true,
+  "unifiedInputRefused": true,
+  "visibleNodes": 62
+}

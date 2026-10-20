@@ -1,0 +1,147 @@
+{
+  "hardware": {
+    "udid": "7de8488b450394ab6417308beffa23e8c2f95f14",
+    "ProductType": "iPad1,1",
+    "ProductVersion": "5.1.1",
+    "BuildVersion": "9B206",
+    "CPUArchitecture": "armv7"
+  },
+  "bridge": {
+    "udid": "7de8488b450394ab6417308beffa23e8c2f95f14",
+    "version": "0.5.0",
+    "alreadyInstalled": true,
+    "ready": true,
+    "sourceDigest": "44fcd5b5827673e7c1a8ce8aafbbdd87a00f22c43dfa8e55af2772b93cb133ae"
+  },
+  "mcp": {
+    "ok": true,
+    "calls": 37,
+    "tools": [
+      "act_ui",
+      "find_ui",
+      "get_screenshot",
+      "get_status",
+      "get_ui_tree",
+      "iphone_gesture",
+      "iphone_input",
+      "iphone_system_control",
+      "list_targets",
+      "read_file",
+      "read_ui_tree",
+      "run_command",
+      "run_workflow"
+    ],
+    "toolSeconds": 50.541,
+    "installedPackageOutsideRepo": true
+  },
+  "vncKeyboard": {
+    "requested": "IPAD-VNC-69c7be636a3a",
+    "actual": "",
+    "retained": false,
+    "framebuffer": [
+      1024,
+      768
+    ]
+  },
+  "compatibility": {
+    "appScreen": [
+      0,
+      0,
+      320,
+      480
+    ],
+    "physicalScreen": [
+      0,
+      0,
+      768,
+      1024
+    ],
+    "nativeTapRefused": true,
+    "unifiedInputRefused": true,
+    "visibleNodes": 62
+  },
+  "connectivity": {
+    "positive": {
+      "ipv4": "45.8.249.60",
+      "port": 443,
+      "connected": true,
+      "errno": 0,
+      "elapsedSeconds": 1.06364
+    },
+    "ct127": {
+      "ipv4": "192.168.0.129",
+      "port": 443,
+      "connected": false,
+      "errno": 60,
+      "elapsedSeconds": 6.037796
+    },
+    "sourceSHA256": "8d48edb874013963a54174bda9c65e25955cfd11a08bf4a8ebf53aa835f293bf",
+    "udid": "7de8488b450394ab6417308beffa23e8c2f95f14"
+  },
+  "vk": {
+    "client": "com.vk.VKApp/1.1",
+    "synthetic": true,
+    "outgoing": 10006,
+    "incoming": 10007,
+    "unchangedExecutable": true,
+    "archiveFiles": 67,
+    "vk10LaunchPassed": false,
+    "vk10TestCloneRemoved": true,
+    "allUIFeaturesVerified": false
+  },
+  "iamrich": {
+    "launched": true,
+    "screenPixels": [
+      0,
+      0,
+      320,
+      480
+    ]
+  },
+  "cleanup": {
+    "iphoneStatePreserved": true,
+    "existingApplicationsPreserved": true,
+    "applicationCountBefore": 116,
+    "applicationCountAfter": 118,
+    "noUSBRelay": true,
+    "temporaryConnectHelperRemoved": true,
+    "failedVK10CloneRemoved": true,
+    "dnsRestored": true,
+    "dns": "DNS configuration\n\nresolver #1\n  nameserver[0] : 192.168.11.1\n  nameserver[1] : 2404:7a81:39e3:3600::1\n  if_index : 2 (en0)\n  reach    : Reachable,Directly Reachable Address\n\nresolver #2\n  domain   : local\n  options  : mdns\n  timeout  : 5\n  order    : 300000\n\nresolver #3\n  domain   : 254.169.in-addr.arpa\n  options  : mdns\n  timeout  : 5\n  order    : 300200\n\nresolver #4\n  domain   : 8.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  order    : 300400\n\nresolver #5\n  domain   : 9.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  order    : 300600\n\nresolver #6\n  domain   : a.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  order    : 300800\n\nresolver #7\n  domain   : b.e.f.ip6.arpa\n  options  : mdns\n  timeout  : 5\n  order    : 301000\n\nDNS configuration (for scoped queries)\n\nresolver #1\n  nameserver[0] : 192.168.11.1\n  nameserver[1] : 2404:7a81:39e3:3600::1\n  if_index : 2 (en0)\n  flags    : Scoped\n  reach    : Reachable,Directly Reachable Address\n",
+    "finalState": {
+      "frontmostBundleId": "org.openrevive.TouchProbe",
+      "uid": 0,
+      "screenLocked": false,
+      "passcodeEnabled": false,
+      "lockStateAvailable": true
+    }
+  },
+  "profiles": {
+    "removed": true,
+    "originalProfilesPreserved": [
+      "DigiCert Global Root G2",
+      "ISRG Root X1"
+    ],
+    "remainingLabCA": false
+  },
+  "safari": {
+    "originalTabCount": 1,
+    "finalTabCount": 1,
+    "originalTitleRestored": true,
+    "temporaryTabClosed": true
+  },
+  "remainingLimits": [
+    "RFB keyboard did not retain text",
+    "Automatic coordinate mapping for iPhone compatibility mode is unavailable",
+    "CT127 home LAN unreachable from current Wi-Fi",
+    "VK 1.0 lab clone did not remain running; cause not established",
+    "Not every VK UI feature or archived client is validated",
+    "iPad landscape and AssistiveTouch unverified"
+  ],
+  "audit": {
+    "met": 10,
+    "unmet": 0,
+    "abandoned": 0,
+    "meaning": "Measured outcomes and classified limitations; not a claim that all software features pass."
+  }
+}

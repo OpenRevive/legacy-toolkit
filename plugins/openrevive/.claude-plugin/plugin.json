@@ -1,0 +1,17 @@
+{
+  "name": "openrevive",
+  "version": "0.8.0",
+  "description": "MCP tools and a skill for legacy Mac AX, screenshots, Xcode and USB iPhone UIKit, SpringBoard, AssistiveTouch and multitouch.",
+  "author": {
+    "name": "oz"
+  },
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "lion",
+    "xcode",
+    "ssh",
+    "retro",
+    "ios"
+  ]
+}

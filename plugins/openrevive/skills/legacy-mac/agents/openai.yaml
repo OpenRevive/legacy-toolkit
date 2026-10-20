@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenRevive Legacy Mac"
+  short_description: "Control legacy Macs and unified iPhone UI across processes"
+  default_prompt: "Use $legacy-mac to inspect BlackLion and its USB iPhone, then run a verified GUI, unified iPhone UI/AssistiveTouch, multitouch or development workflow."

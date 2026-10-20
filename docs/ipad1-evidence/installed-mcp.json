@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "cwd": "/tmp",
+  "installed": "/Users/oz/.codex/plugins/cache/openrevive-local/openrevive/0.6.0",
+  "status": {
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "uid": 0,
+    "screenLocked": false,
+    "passcodeEnabled": false,
+    "lockStateAvailable": true
+  },
+  "coverage": {
+    "enumeratedProcesses": 38,
+    "bridgedProcesses": 2,
+    "capturedProcesses": 2,
+    "completeForKnownScreenOwners": true,
+    "completeForBridgedOwners": false,
+    "unbridgedUICandidates": [
+      {
+        "error": "Bridge request failed: -1",
+        "name": "VKontakte",
+        "backgroundApplication": true,
+        "executable": "/var/mobile/Applications/17A4D13F-E88D-42BB-B3C2-58737623E3B9/VKontakte.app/VKontakte",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.vk.VKApp",
+        "pid": 4579
+      },
+      {
+        "name": "imagent",
+        "backgroundApplication": true,
+        "executable": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent",
+        "uiCandidate": true,
+        "status": "no-endpoint",
+        "bundleId": "com.apple.imagent",
+        "pid": 46
+      }
+    ],
+    "unavailableTrees": [],
+    "unavailableEndpoints": [
+      {
+        "error": "Bridge request failed: -1",
+        "name": "VKontakte",
+        "backgroundApplication": true,
+        "executable": "/var/mobile/Applications/17A4D13F-E88D-42BB-B3C2-58737623E3B9/VKontakte.app/VKontakte",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.vk.VKApp",
+        "pid": 4579
+      }
+    ],
+    "criticalUnavailableEndpoints": [],
+    "truncatedOwners": [],
+    "occlusionModel": "iOS6-window-level-plus-live-hit-tests; unknown unbridged UI has no inferred tree",
+    "allKernelProcessesHaveUITrees": false
+  },
+  "timings": [
+    {
+      "tool": "get_status",
+      "seconds": 2.020672
+    },
+    {
+      "tool": "get_ui_tree",
+      "seconds": 1.477291
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "switcher": {
+    "iconPage": 0,
+    "surface": "app-switcher",
+    "frontmostPid": 1960,
+    "screenPixels": [
+      0,
+      0,
+      768,
+      1024
+    ],
+    "visibleWindowIdentities": [
+      "0x4197a0:SBAppWindow",
+      "0xe56ce10:UIWindow",
+      "0x4c0270:UIStatusBarWindow",
+      "0xe556a60:SBShowcaseWindow"
+    ],
+    "session": "0171BCA4-1520-4B97-831B-ED7C983F3580",
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "alertIdentity": "0x0",
+    "screenLocked": false,
+    "alertClass": "",
+    "token": "0:0x0:0:1:0:0x4197a0:SBAppWindow,0xe56ce10:UIWindow,0x4c0270:UIStatusBarWindow,0xe556a60:SBShowcaseWindow",
+    "passcodeEnabled": false,
+    "pid": 1899,
+    "switcherVisible": true,
+    "notificationCenterVisible": false
+  },
+  "dismiss-switcher": {
+    "iconPage": 0,
+    "surface": "application",
+    "frontmostPid": 1960,
+    "screenPixels": [
+      0,
+      0,
+      768,
+      1024
+    ],
+    "visibleWindowIdentities": [
+      "0x4197a0:SBAppWindow",
+      "0x4c0270:UIStatusBarWindow"
+    ],
+    "session": "0171BCA4-1520-4B97-831B-ED7C983F3580",
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "alertIdentity": "0x0",
+    "screenLocked": false,
+    "alertClass": "",
+    "token": "0:0x0:0:0:0:0x4197a0:SBAppWindow,0x4c0270:UIStatusBarWindow",
+    "passcodeEnabled": false,
+    "pid": 1899,
+    "switcherVisible": false,
+    "notificationCenterVisible": false
+  },
+  "notifications": {
+    "iconPage": 0,
+    "surface": "notification-center",
+    "frontmostPid": 1960,
+    "screenPixels": [
+      0,
+      0,
+      768,
+      1024
+    ],
+    "visibleWindowIdentities": [
+      "0x4197a0:SBAppWindow",
+      "0x4c0270:UIStatusBarWindow",
+      "0xe0c3580:SBBulletinWindow"
+    ],
+    "session": "0171BCA4-1520-4B97-831B-ED7C983F3580",
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "alertIdentity": "0x0",
+    "screenLocked": false,
+    "alertClass": "",
+    "token": "0:0x0:1:0:0:0x4197a0:SBAppWindow,0x4c0270:UIStatusBarWindow,0xe0c3580:SBBulletinWindow",
+    "passcodeEnabled": false,
+    "pid": 1899,
+    "switcherVisible": false,
+    "notificationCenterVisible": true
+  },
+  "dismiss-notifications": {
+    "iconPage": 0,
+    "surface": "application",
+    "frontmostPid": 1960,
+    "screenPixels": [
+      0,
+      0,
+      768,
+      1024
+    ],
+    "visibleWindowIdentities": [
+      "0x4197a0:SBAppWindow",
+      "0x4c0270:UIStatusBarWindow"
+    ],
+    "session": "0171BCA4-1520-4B97-831B-ED7C983F3580",
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "alertIdentity": "0x0",
+    "screenLocked": false,
+    "alertClass": "",
+    "token": "0:0x0:0:0:0:0x4197a0:SBAppWindow,0x4c0270:UIStatusBarWindow",
+    "passcodeEnabled": false,
+    "pid": 1899,
+    "switcherVisible": false,
+    "notificationCenterVisible": false
+  },
+  "alert": {
+    "accepted": 1,
+    "nonce": "3adfc84c35e1ac72f4b77dc02a5e6f07",
+    "error": 0,
+    "responseFlags": 0
+  },
+  "settingsIcon": {
+    "actions": [
+      "resolve-tap"
+    ],
+    "id": "w0/v0/v0/v1/v1/v0/v12",
+    "visible": true,
+    "label": "Settings",
+    "interactive": true,
+    "enabled": true,
+    "framePixels": [
+      82,
+      566,
+      74,
+      93
+    ],
+    "framePoints": [
+      82,
+      566,
+      74,
+      93
+    ],
+    "role": "app-icon",
+    "labelSource": "springboard-icon",
+    "parent": "w0/v0/v0/v1/v1/v0",
+    "identifier": "com.apple.Preferences",
+    "value": "",
+    "secure": false,
+    "locallyHittable": 1,
+    "windowId": "w0",
+    "class": "SBIconView"
+  },
+  "lockUnlock": true,
+  "unifiedReceipt": {
+    "visibleResult": "Applied 1: IPAD-UNIFIED-436c6697 Привет 日本語",
+    "clicks": 1,
+    "text": "IPAD-UNIFIED-436c6697 Привет 日本語"
+  },
+  "coverage": {
+    "enumeratedProcesses": 37,
+    "bridgedProcesses": 2,
+    "capturedProcesses": 2,
+    "completeForKnownScreenOwners": true,
+    "completeForBridgedOwners": false,
+    "unbridgedUICandidates": [
+      {
+        "error": "Bridge request failed: -2",
+        "name": "Preferences",
+        "backgroundApplication": true,
+        "executable": "/Applications/Preferences.app/Preferences",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.apple.Preferences",
+        "pid": 2127
+      },
+      {
+        "name": "imagent",
+        "backgroundApplication": true,
+        "executable": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent",
+        "uiCandidate": true,
+        "status": "no-endpoint",
+        "bundleId": "com.apple.imagent",
+        "pid": 46
+      }
+    ],
+    "unavailableTrees": [],
+    "unavailableEndpoints": [
+      {
+        "error": "Bridge request failed: -2",
+        "name": "Preferences",
+        "backgroundApplication": true,
+        "executable": "/Applications/Preferences.app/Preferences",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.apple.Preferences",
+        "pid": 2127
+      }
+    ],
+    "criticalUnavailableEndpoints": [],
+    "truncatedOwners": [],
+    "occlusionModel": "iOS6-window-level-plus-live-hit-tests; unknown unbridged UI has no inferred tree",
+    "allKernelProcessesHaveUITrees": false
+  }
+}

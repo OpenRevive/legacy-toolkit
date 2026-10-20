@@ -1,0 +1,67 @@
+[
+  {
+    "argv": [
+      "python3",
+      "tests/check_package.py"
+    ],
+    "exit": 0,
+    "stdout": "OPENREVIVE_PACKAGE_OK\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "tests/check_iphone_protocol.py"
+    ],
+    "exit": 0,
+    "stdout": "OPENREVIVE_IPHONE_PROTOCOL_OK\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "tests/check_uikit_protocol.py"
+    ],
+    "exit": 0,
+    "stdout": "OPENREVIVE_UIKIT_PROTOCOL_OK\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "tests/check_mcp_backend.py"
+    ],
+    "exit": 0,
+    "stdout": "OPENREVIVE_MCP_BACKEND_OK\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "node",
+      "tests/check_mcp_protocol.mjs"
+    ],
+    "exit": 0,
+    "stdout": "OPENREVIVE_MCP_PROTOCOL_OK\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "tests/check_text_input.py",
+      "local"
+    ],
+    "exit": 0,
+    "stdout": "OPENREVIVE_TEXT_INPUT_LOCAL_OK\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

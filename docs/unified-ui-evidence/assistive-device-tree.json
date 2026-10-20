@@ -1,0 +1,7194 @@
+{
+  "capturedAt": 1792070868.414679,
+  "expiresInSeconds": 30,
+  "systemContext": {
+    "iconPage": 0,
+    "surface": "application",
+    "frontmostPid": 7491,
+    "session": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+    "visibleWindowIdentities": [
+      "0x1e17bd40:SBAppWindow",
+      "0x1d5a7c40:UIStatusBarWindow"
+    ],
+    "frontmostBundleId": "org.openrevive.TouchProbe",
+    "passcodeEnabled": false,
+    "alertIdentity": "0x0",
+    "alertClass": "",
+    "token": "0:0x0:0:0:0:0x1e17bd40:SBAppWindow,0x1d5a7c40:UIStatusBarWindow",
+    "screenLocked": false,
+    "pid": 6809,
+    "switcherVisible": false,
+    "notificationCenterVisible": false
+  },
+  "unbridgedUICandidates": [
+    {
+      "error": "Bridge request failed: -1",
+      "name": "Preferences",
+      "backgroundApplication": true,
+      "executable": "/Applications/Preferences.app/Preferences",
+      "uiCandidate": true,
+      "status": "unavailable",
+      "bundleId": "com.apple.Preferences",
+      "pid": 7152
+    },
+    {
+      "name": "kbd",
+      "backgroundApplication": true,
+      "executable": "/Applications/kbd.app/kbd",
+      "uiCandidate": true,
+      "status": "no-endpoint",
+      "bundleId": "com.apple.TextInput.kbd",
+      "pid": 69
+    },
+    {
+      "name": "imagent",
+      "backgroundApplication": true,
+      "executable": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent",
+      "uiCandidate": true,
+      "status": "no-endpoint",
+      "bundleId": "com.apple.imagent",
+      "pid": 56
+    }
+  ],
+  "unavailableEndpoints": [
+    {
+      "error": "Bridge request failed: -1",
+      "name": "Preferences",
+      "backgroundApplication": true,
+      "executable": "/Applications/Preferences.app/Preferences",
+      "uiCandidate": true,
+      "status": "unavailable",
+      "bundleId": "com.apple.Preferences",
+      "pid": 7152
+    }
+  ],
+  "owners": [
+    {
+      "screenEligible": true,
+      "applicationState": 0,
+      "containerPath": "/var/mobile/Applications/C41CA43B-3D38-4B6B-8E18-D1BB3C6F3BDE",
+      "bridgeVersion": "0.5.0",
+      "layoutToken": "2b0a44c5802a9540",
+      "session": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "bundleId": "org.openrevive.TouchProbe",
+      "layoutTruncated": 0,
+      "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+      "windows": [
+        {
+          "actions": [
+            "resolve-tap"
+          ],
+          "id": "w0",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1cd8e6d0",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 0,
+          "class": "UIWindow"
+        },
+        {
+          "actions": [
+            "resolve-tap"
+          ],
+          "id": "w1",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1cd6f5c0",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 1000,
+          "class": "UIStatusBarWindow"
+        }
+      ],
+      "ok": true,
+      "ownerKind": "application",
+      "pid": 7491,
+      "nodeCount": 38,
+      "snapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC"
+    },
+    {
+      "screenEligible": false,
+      "applicationState": 2,
+      "containerPath": "/var/mobile",
+      "bridgeVersion": "0.5.0",
+      "layoutToken": "15b9ea8c2b377437",
+      "session": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "bundleId": "com.apple.mobilemail",
+      "layoutTruncated": 0,
+      "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+      "windows": [
+        {
+          "actions": [
+            "resolve-tap"
+          ],
+          "id": "w0",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1fdb5d90",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 1000,
+          "class": "UIStatusBarWindow"
+        }
+      ],
+      "ok": true,
+      "ownerKind": "application",
+      "pid": 6830,
+      "nodeCount": 16,
+      "snapshot": "02EB6FB9-FE21-40F0-8118-A05847044920"
+    },
+    {
+      "screenEligible": false,
+      "applicationState": 2,
+      "containerPath": "/var/mobile",
+      "bridgeVersion": "0.5.0",
+      "layoutToken": "4ba49a0dbc792a0b",
+      "session": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "bundleId": "com.apple.mobilephone",
+      "layoutTruncated": 0,
+      "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+      "windows": [
+        {
+          "actions": [
+            "resolve-tap"
+          ],
+          "id": "w0",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1e560e60",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 0,
+          "class": "UIWindow"
+        },
+        {
+          "actions": [
+            "resolve-tap"
+          ],
+          "id": "w1",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1e5e8030",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 1000,
+          "class": "UIStatusBarWindow"
+        }
+      ],
+      "ok": true,
+      "ownerKind": "application",
+      "pid": 6827,
+      "nodeCount": 18,
+      "snapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF"
+    },
+    {
+      "screenEligible": true,
+      "applicationState": 0,
+      "containerPath": "/var/mobile",
+      "systemContext": {
+        "alertClass": "",
+        "screenLocked": false,
+        "visibleWindowIdentities": [
+          "0x1e17bd40:SBAppWindow",
+          "0x1d5a7c40:UIStatusBarWindow"
+        ],
+        "token": "0:0x0:0:0:0:0x1e17bd40:SBAppWindow,0x1d5a7c40:UIStatusBarWindow",
+        "surface": "workspace",
+        "notificationCenterVisible": false,
+        "alertIdentity": "0x0",
+        "switcherVisible": false,
+        "iconPage": 0
+      },
+      "bridgeVersion": "0.5.0",
+      "layoutToken": "28b729c5b2d4e431",
+      "session": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "bundleId": "com.apple.springboard",
+      "layoutTruncated": 0,
+      "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+      "windows": [
+        {
+          "actions": [
+            "activate",
+            "resolve-tap"
+          ],
+          "id": "w0",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1e17bd40",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": -1,
+          "class": "SBAppWindow"
+        },
+        {
+          "actions": [
+            "activate",
+            "resolve-tap"
+          ],
+          "id": "w1",
+          "visible": false,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1e192d60",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 10,
+          "class": "UITextEffectsWindow"
+        },
+        {
+          "actions": [
+            "activate",
+            "resolve-tap"
+          ],
+          "id": "w2",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1d5a7c40",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 999,
+          "class": "UIStatusBarWindow"
+        },
+        {
+          "actions": [
+            "activate",
+            "resolve-tap"
+          ],
+          "id": "w3",
+          "visible": false,
+          "label": "",
+          "interactive": false,
+          "enabled": true,
+          "identity": "0x1e2907f0",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 1048,
+          "class": "SBUIAnimationWindow"
+        },
+        {
+          "actions": [
+            "activate",
+            "resolve-tap"
+          ],
+          "id": "w4",
+          "visible": false,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1d5ac660",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 2300,
+          "class": "SBSpringBoardMetaHostingWindow"
+        }
+      ],
+      "ok": true,
+      "ownerKind": "springboard",
+      "pid": 6809,
+      "scope": "system",
+      "nodeCount": 10,
+      "snapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C"
+    },
+    {
+      "screenEligible": true,
+      "applicationState": 1,
+      "containerPath": "/var/mobile",
+      "bridgeVersion": "0.5.0",
+      "layoutToken": "10c8be4bc55ac9b2",
+      "session": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "bundleId": "com.apple.assistivetouchd",
+      "layoutTruncated": 0,
+      "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+      "windows": [
+        {
+          "actions": [
+            "resolve-tap"
+          ],
+          "id": "w0",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1d596610",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 2206,
+          "class": "HNDIgnoredWindow"
+        },
+        {
+          "actions": [
+            "resolve-tap"
+          ],
+          "id": "w1",
+          "visible": true,
+          "label": "",
+          "interactive": true,
+          "enabled": true,
+          "identity": "0x1d599670",
+          "framePixels": [
+            0,
+            0,
+            640,
+            960
+          ],
+          "framePoints": [
+            0,
+            0,
+            320,
+            480
+          ],
+          "role": "window",
+          "labelSource": "accessibility-or-control",
+          "identifier": "",
+          "value": "",
+          "secure": false,
+          "windowLevel": 2206,
+          "class": "HNDWindow"
+        }
+      ],
+      "ok": true,
+      "ownerKind": "assistive-touch",
+      "pid": 6799,
+      "nodeCount": 30,
+      "snapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766"
+    }
+  ],
+  "processes": [
+    {
+      "name": "sleep",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7732,
+      "executable": "/bin/sleep"
+    },
+    {
+      "name": "bash",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7731,
+      "executable": "/bin/bash"
+    },
+    {
+      "name": "legacy-uikit-cli",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7730,
+      "executable": "/var/root/OpenRevive/legacy-uikit-client"
+    },
+    {
+      "name": "bash",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7729,
+      "executable": "/bin/bash"
+    },
+    {
+      "name": "afcd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7728,
+      "executable": "/usr/libexec/afcd"
+    },
+    {
+      "name": "ReportCrash",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7707,
+      "executable": "/System/Library/CoreServices/ReportCrash"
+    },
+    {
+      "name": "lockbot",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7663,
+      "executable": "/usr/libexec/lockbot"
+    },
+    {
+      "name": "securityd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 7661,
+      "executable": "/usr/libexec/securityd"
+    },
+    {
+      "name": "OpenReviveTouchP",
+      "backgroundApplication": false,
+      "executable": "/var/mobile/Applications/C41CA43B-3D38-4B6B-8E18-D1BB3C6F3BDE/OpenReviveTouchProbe.app/OpenReviveTouchProbe",
+      "uiCandidate": true,
+      "status": "bridged",
+      "bundleId": "org.openrevive.TouchProbe",
+      "pid": 7491
+    },
+    {
+      "error": "Bridge request failed: -1",
+      "name": "Preferences",
+      "backgroundApplication": true,
+      "executable": "/Applications/Preferences.app/Preferences",
+      "uiCandidate": true,
+      "status": "unavailable",
+      "bundleId": "com.apple.Preferences",
+      "pid": 7152
+    },
+    {
+      "name": "MobileMail",
+      "backgroundApplication": true,
+      "executable": "/Applications/MobileMail.app/MobileMail",
+      "uiCandidate": true,
+      "status": "bridged",
+      "bundleId": "com.apple.mobilemail",
+      "pid": 6830
+    },
+    {
+      "name": "MobilePhone",
+      "backgroundApplication": true,
+      "executable": "/Applications/MobilePhone.app/MobilePhone",
+      "uiCandidate": true,
+      "status": "bridged",
+      "bundleId": "com.apple.mobilephone",
+      "pid": 6827
+    },
+    {
+      "name": "SpringBoard",
+      "backgroundApplication": false,
+      "executable": "/System/Library/CoreServices/SpringBoard.app/SpringBoard",
+      "uiCandidate": true,
+      "status": "bridged",
+      "bundleId": "com.apple.springboard",
+      "pid": 6809
+    },
+    {
+      "name": "backboardd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 6801,
+      "executable": "/usr/libexec/backboardd"
+    },
+    {
+      "name": "assistivetouchd",
+      "backgroundApplication": false,
+      "executable": "/System/Library/CoreServices/AssistiveTouch.app/assistivetouchd",
+      "uiCandidate": true,
+      "status": "bridged",
+      "bundleId": "com.apple.assistivetouchd",
+      "pid": 6799
+    },
+    {
+      "name": "mediaremoted",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 5670,
+      "executable": "/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted"
+    },
+    {
+      "name": "geod",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 3231,
+      "executable": "/System/Library/PrivateFrameworks/GeoServices.framework/geod"
+    },
+    {
+      "name": "mobile_assertion",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 1415,
+      "executable": "/usr/libexec/mobile_assertion_agent"
+    },
+    {
+      "name": "notification_pro",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 313,
+      "executable": "/usr/libexec/notification_proxy"
+    },
+    {
+      "name": "afcd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 312,
+      "executable": "/usr/libexec/afcd"
+    },
+    {
+      "name": "filecoordination",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 308,
+      "executable": "/usr/sbin/filecoordinationd"
+    },
+    {
+      "name": "assetsd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 300,
+      "executable": "/System/Library/Frameworks/AssetsLibrary.framework/Support/assetsd"
+    },
+    {
+      "name": "accountsd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 298,
+      "executable": "/System/Library/Frameworks/Accounts.framework/accountsd"
+    },
+    {
+      "name": "tccd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 290,
+      "executable": "/System/Library/PrivateFrameworks/TCC.framework/tccd"
+    },
+    {
+      "name": "BlueTool",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 280,
+      "executable": "/usr/sbin/BlueTool"
+    },
+    {
+      "name": "xpcd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 274,
+      "executable": "/usr/libexec/xpcd"
+    },
+    {
+      "name": "distnoted",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 184,
+      "executable": "/usr/sbin/distnoted"
+    },
+    {
+      "name": "lsd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 175,
+      "executable": "/usr/libexec/lsd"
+    },
+    {
+      "name": "apsd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 159,
+      "executable": "/System/Library/PrivateFrameworks/ApplePushService.framework/apsd"
+    },
+    {
+      "name": "itunesstored",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 144,
+      "executable": "/System/Library/PrivateFrameworks/iTunesStore.framework/Support/itunesstored"
+    },
+    {
+      "name": "networkd_privile",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 141,
+      "executable": "/usr/libexec/networkd_privileged"
+    },
+    {
+      "name": "aggregated",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 137,
+      "executable": "/System/Library/PrivateFrameworks/AggregateDictionary.framework/Support/aggregated"
+    },
+    {
+      "name": "networkd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 135,
+      "executable": "/usr/libexec/networkd"
+    },
+    {
+      "name": "notifyd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 84,
+      "executable": "/usr/sbin/notifyd"
+    },
+    {
+      "name": "BTServer",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 75,
+      "executable": "/usr/sbin/BTServer"
+    },
+    {
+      "name": "CommCenterClassi",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 74,
+      "executable": "/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenterClassic"
+    },
+    {
+      "name": "kbd",
+      "backgroundApplication": true,
+      "executable": "/Applications/kbd.app/kbd",
+      "uiCandidate": true,
+      "status": "no-endpoint",
+      "bundleId": "com.apple.TextInput.kbd",
+      "pid": 69
+    },
+    {
+      "name": "configd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 63,
+      "executable": "/usr/libexec/configd"
+    },
+    {
+      "name": "AppleIDAuthAgent",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 62,
+      "executable": "/System/Library/CoreServices/AppleIDAuthAgent"
+    },
+    {
+      "name": "fairplayd.N90",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 60,
+      "executable": "/usr/sbin/fairplayd.N90"
+    },
+    {
+      "name": "fseventsd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 59,
+      "executable": "/usr/libexec/fseventsd"
+    },
+    {
+      "name": "iaptransportd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 57,
+      "executable": "/System/Library/PrivateFrameworks/IAP.framework/Support/iaptransportd"
+    },
+    {
+      "name": "imagent",
+      "backgroundApplication": true,
+      "executable": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent",
+      "uiCandidate": true,
+      "status": "no-endpoint",
+      "bundleId": "com.apple.imagent",
+      "pid": 56
+    },
+    {
+      "name": "locationd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 54,
+      "executable": "/usr/libexec/locationd"
+    },
+    {
+      "name": "mDNSResponder",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 52,
+      "executable": "/usr/sbin/mDNSResponder"
+    },
+    {
+      "name": "mediaserverd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 50,
+      "executable": "/usr/sbin/mediaserverd"
+    },
+    {
+      "name": "deleted",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 46,
+      "executable": "/usr/libexec/deleted"
+    },
+    {
+      "name": "installd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 44,
+      "executable": "/usr/libexec/installd"
+    },
+    {
+      "name": "lockdownd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 42,
+      "executable": "/usr/libexec/lockdownd"
+    },
+    {
+      "name": "powerd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 34,
+      "executable": "/System/Library/CoreServices/powerd.bundle/powerd"
+    },
+    {
+      "name": "syslogd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 32,
+      "executable": "/usr/sbin/syslogd"
+    },
+    {
+      "name": "timed",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 31,
+      "executable": "/usr/libexec/timed"
+    },
+    {
+      "name": "ptpd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 30,
+      "executable": "/usr/libexec/ptpd"
+    },
+    {
+      "name": "wifid",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 28,
+      "executable": "/usr/sbin/wifid"
+    },
+    {
+      "name": "UserEventAgent",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 26,
+      "executable": "/usr/libexec/UserEventAgent"
+    },
+    {
+      "name": "launchd",
+      "uiCandidate": false,
+      "status": "no-endpoint",
+      "backgroundApplication": false,
+      "pid": 1,
+      "executable": "/sbin/launchd"
+    }
+  ],
+  "ok": true,
+  "scope": "desktop",
+  "snapshot": "8C0445E3-C403-4186-89A0-9737F0967440",
+  "criticalUnavailableEndpoints": [],
+  "discoveryTruncated": false,
+  "controllerCapturedAt": 1792070868.138773,
+  "udid": "52ae27b69a24411249224db7ac856ecdd2faef13",
+  "treeKind": "multiprocess-uikit-and-accessibility",
+  "schemaVersion": 1,
+  "nodes": [
+    {
+      "id": "desktop",
+      "parent": null,
+      "role": "desktop",
+      "label": "iPhone interface",
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7732",
+      "parent": "desktop",
+      "role": "process",
+      "label": "sleep",
+      "ownerPid": 7732,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7731",
+      "parent": "desktop",
+      "role": "process",
+      "label": "bash",
+      "ownerPid": 7731,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7730",
+      "parent": "desktop",
+      "role": "process",
+      "label": "legacy-uikit-cli",
+      "ownerPid": 7730,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7729",
+      "parent": "desktop",
+      "role": "process",
+      "label": "bash",
+      "ownerPid": 7729,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7728",
+      "parent": "desktop",
+      "role": "process",
+      "label": "afcd",
+      "ownerPid": 7728,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7707",
+      "parent": "desktop",
+      "role": "process",
+      "label": "ReportCrash",
+      "ownerPid": 7707,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7663",
+      "parent": "desktop",
+      "role": "process",
+      "label": "lockbot",
+      "ownerPid": 7663,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7661",
+      "parent": "desktop",
+      "role": "process",
+      "label": "securityd",
+      "ownerPid": 7661,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p7491",
+      "parent": "desktop",
+      "role": "process",
+      "label": "org.openrevive.TouchProbe",
+      "ownerPid": 7491,
+      "availability": "bridged",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "class": "UIWindow",
+      "sourceId": "w0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        0,
+        20,
+        320,
+        460
+      ],
+      "class": "UIView",
+      "parent": "p7491/w0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": false,
+      "framePixels": [
+        0,
+        40,
+        640,
+        920
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "OpenRevive · iOS 6",
+      "framePoints": [
+        20,
+        55,
+        280,
+        40
+      ],
+      "class": "UILabel",
+      "parent": "p7491/w0/v0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v0",
+      "blockedByPid": 6799,
+      "role": "label",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        40,
+        110,
+        560,
+        80
+      ],
+      "value": "OpenRevive · iOS 6",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Probe text",
+      "framePoints": [
+        20,
+        125,
+        280,
+        36
+      ],
+      "class": "UITextField",
+      "parent": "p7491/w0/v0",
+      "actions": [
+        "set-text",
+        "focus",
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v1",
+      "blockedByPid": 6799,
+      "role": "text-field",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": false,
+      "framePixels": [
+        40,
+        250,
+        560,
+        72
+      ],
+      "value": "OR-066bd49e51 Привет 日本語",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "focus",
+        "route": "semantic"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        20,
+        125,
+        280,
+        36
+      ],
+      "class": "UITextFieldRoundedRectBackgroundView",
+      "parent": "p7491/w0/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v1/v0",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        40,
+        250,
+        560,
+        72
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v1/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        20,
+        125,
+        8,
+        36
+      ],
+      "class": "UIImageView",
+      "parent": "p7491/w0/v0/v1/v0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v1/v0/v0",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        40,
+        250,
+        16,
+        72
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v1/v0/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        28,
+        125,
+        264,
+        36
+      ],
+      "class": "UIImageView",
+      "parent": "p7491/w0/v0/v1/v0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v1/v0/v1",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        56,
+        250,
+        528,
+        72
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v1/v0/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        292,
+        125,
+        8,
+        36
+      ],
+      "class": "UIImageView",
+      "parent": "p7491/w0/v0/v1/v0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v1/v0/v2",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        584,
+        250,
+        16,
+        72
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v1/v0/v2",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "OR-066bd49e51 Привет 日本語",
+      "framePoints": [
+        27,
+        127,
+        266,
+        21
+      ],
+      "class": "UITextFieldLabel",
+      "parent": "p7491/w0/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v1/v1",
+      "blockedByPid": 6799,
+      "role": "label",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        54,
+        254,
+        532,
+        42
+      ],
+      "value": "OR-066bd49e51 Привет 日本語",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v1/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Apply probe",
+      "framePoints": [
+        20,
+        185,
+        280,
+        44
+      ],
+      "class": "UIRoundedRectButton",
+      "parent": "p7491/w0/v0",
+      "actions": [
+        "press",
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v2",
+      "blockedByPid": 6799,
+      "role": "button",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": false,
+      "framePixels": [
+        40,
+        370,
+        560,
+        88
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v2",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "press",
+        "route": "semantic"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        20,
+        185,
+        280,
+        44
+      ],
+      "class": "UIGroupTableViewCellBackground",
+      "parent": "p7491/w0/v0/v2",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v2/v0",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        40,
+        370,
+        560,
+        88
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v2/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        21,
+        186,
+        278,
+        43
+      ],
+      "class": "UIImageView",
+      "parent": "p7491/w0/v0/v2",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v2/v1",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        42,
+        372,
+        556,
+        86
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v2/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Apply probe",
+      "framePoints": [
+        116,
+        197,
+        87,
+        19
+      ],
+      "class": "UIButtonLabel",
+      "parent": "p7491/w0/v0/v2",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v2/v2",
+      "blockedByPid": 6799,
+      "role": "label",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        232,
+        394,
+        174,
+        38
+      ],
+      "value": "Apply probe",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v2/v2",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Probe result",
+      "framePoints": [
+        20,
+        255,
+        280,
+        65
+      ],
+      "class": "UILabel",
+      "parent": "p7491/w0/v0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v3",
+      "blockedByPid": 6799,
+      "role": "label",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        40,
+        510,
+        560,
+        130
+      ],
+      "value": "Applied 1: OR-066bd49e51 Привет 日本語",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v3",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Multitouch pad",
+      "framePoints": [
+        20,
+        355,
+        280,
+        105
+      ],
+      "class": "ORMultitouchPad",
+      "parent": "p7491/w0/v0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v4",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "multitouch-pad",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": false,
+      "framePixels": [
+        40,
+        710,
+        560,
+        210
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v4",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Max simultaneous: 2\nPinch scale: 2.588 (28 events)",
+      "framePoints": [
+        30,
+        365,
+        260,
+        85
+      ],
+      "class": "UILabel",
+      "parent": "p7491/w0/v0/v4",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v4/v0",
+      "blockedByPid": 6799,
+      "role": "label",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        60,
+        730,
+        520,
+        170
+      ],
+      "value": "Max simultaneous: 2\nPinch scale: 2.588 (28 events)",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v4/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [],
+      "id": "p7491/w0/v0/v4/a0",
+      "visible": true,
+      "label": "Multitouch status",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        40,
+        710,
+        560,
+        210
+      ],
+      "framePoints": [
+        20,
+        355,
+        280,
+        105
+      ],
+      "role": "accessibility-element",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w0/v0/v4",
+      "identifier": "",
+      "value": "Max simultaneous: 2\nPinch scale: 2.588 (28 events)",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "class": "UIAccessibilityElement",
+      "sourceId": "w0/v0/v4/a0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": null,
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Reset touches",
+      "framePoints": [
+        160,
+        320,
+        140,
+        28
+      ],
+      "class": "UIRoundedRectButton",
+      "parent": "p7491/w0/v0",
+      "actions": [
+        "press",
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v5",
+      "blockedByPid": 6799,
+      "role": "button",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": false,
+      "framePixels": [
+        320,
+        640,
+        280,
+        56
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v5",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "press",
+        "route": "semantic"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        160,
+        320,
+        140,
+        28
+      ],
+      "class": "UIGroupTableViewCellBackground",
+      "parent": "p7491/w0/v0/v5",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v5/v0",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        320,
+        640,
+        280,
+        56
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v5/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        161,
+        321,
+        138,
+        27
+      ],
+      "class": "UIImageView",
+      "parent": "p7491/w0/v0/v5",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v5/v1",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        322,
+        642,
+        276,
+        54
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v5/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Reset touches",
+      "framePoints": [
+        178,
+        324,
+        104,
+        19
+      ],
+      "class": "UIButtonLabel",
+      "parent": "p7491/w0/v0/v5",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v5/v2",
+      "blockedByPid": 6799,
+      "role": "label",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        356,
+        648,
+        208,
+        38
+      ],
+      "value": "Reset touches",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v5/v2",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "Secure probe",
+      "framePoints": [
+        20,
+        320,
+        120,
+        28
+      ],
+      "class": "UITextField",
+      "parent": "p7491/w0/v0",
+      "actions": [
+        "set-text",
+        "focus",
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w0/v0/v6",
+      "blockedByPid": 6799,
+      "role": "text-field",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": true,
+      "framePixels": [
+        40,
+        640,
+        240,
+        56
+      ],
+      "value": "",
+      "windowId": "p7491/w0",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w0/v0/v6",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "focus",
+        "route": "semantic"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarWindow",
+      "sourceId": "w1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "class": "UIStatusBar",
+      "parent": "p7491/w1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": false,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1/v0/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w1/v0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarBackgroundView",
+      "sourceId": "w1/v0/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "class": "UIStatusBarForegroundView",
+      "parent": "p7491/w1/v0",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0/v1",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": true,
+      "secure": false,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        6,
+        0,
+        16,
+        20
+      ],
+      "class": "UIStatusBarAirplaneModeItemView",
+      "parent": "p7491/w1/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0/v1/v0",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        12,
+        0,
+        32,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0/v1/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        28,
+        0,
+        20,
+        20
+      ],
+      "class": "UIStatusBarDataNetworkItemView",
+      "parent": "p7491/w1/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0/v1/v1",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        56,
+        0,
+        40,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0/v1/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        296,
+        0,
+        21,
+        20
+      ],
+      "class": "UIStatusBarBatteryItemView",
+      "parent": "p7491/w1/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0/v1/v2",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        592,
+        0,
+        42,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0/v1/v2",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        254,
+        0,
+        39,
+        20
+      ],
+      "class": "UIStatusBarBatteryPercentItemView",
+      "parent": "p7491/w1/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0/v1/v3",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        508,
+        0,
+        78,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0/v1/v3",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        142,
+        0,
+        36,
+        20
+      ],
+      "class": "UIStatusBarTimeItemView",
+      "parent": "p7491/w1/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0/v1/v4",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        284,
+        0,
+        72,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0/v1/v4",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "visible": true,
+      "label": "",
+      "framePoints": [
+        230,
+        0,
+        18,
+        20
+      ],
+      "class": "UIStatusBarCustomItemView",
+      "parent": "p7491/w1/v0/v1",
+      "actions": [
+        "resolve-tap"
+      ],
+      "labelSource": "accessibility-or-control",
+      "enabled": true,
+      "id": "p7491/w1/v0/v1/v5",
+      "blockedByPid": 6799,
+      "role": "view",
+      "identifier": "",
+      "locallyHittable": 1,
+      "interactive": false,
+      "secure": false,
+      "framePixels": [
+        460,
+        0,
+        36,
+        40
+      ],
+      "value": "",
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "occlusion": "covered-by-process",
+      "sourceId": "w1/v0/v1/v5",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        954,
+        640,
+        6
+      ],
+      "framePoints": [
+        0,
+        477,
+        320,
+        3
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarCorners",
+      "sourceId": "w1/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1/v1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        955,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        477.5,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w1/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v1/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1/v1/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        635,
+        955,
+        5,
+        5
+      ],
+      "framePoints": [
+        317.5,
+        477.5,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w1/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v1/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1/v2",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        640,
+        6
+      ],
+      "framePoints": [
+        0,
+        20,
+        320,
+        3
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarCorners",
+      "sourceId": "w1/v2",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1/v2/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        20,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w1/v2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v2/v0",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1/v2/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        635,
+        40,
+        5,
+        5
+      ],
+      "framePoints": [
+        317.5,
+        20,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p7491/w1/v2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p7491/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v2/v1",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "ownerSession": "FA989922-F90C-4D4A-AE83-6ECB68822052",
+      "ownerSnapshot": "384E9B77-ABDA-43B5-B192-BC5875CF2CBC",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "id": "p7152",
+      "parent": "desktop",
+      "role": "process",
+      "label": "com.apple.Preferences",
+      "ownerPid": 7152,
+      "availability": "unavailable",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p6830",
+      "parent": "desktop",
+      "role": "process",
+      "label": "com.apple.mobilemail",
+      "ownerPid": 6830,
+      "availability": "bridged",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarWindow",
+      "sourceId": "w0",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBar",
+      "sourceId": "w0/v0",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarBackgroundView",
+      "sourceId": "w0/v0/v0",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarForegroundView",
+      "sourceId": "w0/v0/v1",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        12,
+        0,
+        32,
+        40
+      ],
+      "framePoints": [
+        6,
+        0,
+        16,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarAirplaneModeItemView",
+      "sourceId": "w0/v0/v1/v0",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v1/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        56,
+        0,
+        40,
+        40
+      ],
+      "framePoints": [
+        28,
+        0,
+        20,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarDataNetworkItemView",
+      "sourceId": "w0/v0/v1/v1",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v1/v2",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        592,
+        0,
+        42,
+        40
+      ],
+      "framePoints": [
+        296,
+        0,
+        21,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarBatteryItemView",
+      "sourceId": "w0/v0/v1/v2",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v1/v3",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        508,
+        0,
+        78,
+        40
+      ],
+      "framePoints": [
+        254,
+        0,
+        39,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarBatteryPercentItemView",
+      "sourceId": "w0/v0/v1/v3",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v1/v4",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        284,
+        0,
+        72,
+        40
+      ],
+      "framePoints": [
+        142,
+        0,
+        36,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarTimeItemView",
+      "sourceId": "w0/v0/v1/v4",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v0/v1/v5",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        460,
+        0,
+        36,
+        40
+      ],
+      "framePoints": [
+        230,
+        0,
+        18,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarCustomItemView",
+      "sourceId": "w0/v0/v1/v5",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        640,
+        6
+      ],
+      "framePoints": [
+        0,
+        20,
+        320,
+        3
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarCorners",
+      "sourceId": "w0/v1",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        20,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w0/v1/v0",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v1/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        20,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w0/v1/v1",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v2",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        954,
+        640,
+        6
+      ],
+      "framePoints": [
+        0,
+        477,
+        320,
+        3
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIStatusBarCorners",
+      "sourceId": "w0/v2",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v2/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        954,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        477,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w0/v2/v0",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0/v2/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        954,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        477,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6830/w0/v2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6830/w0",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w0/v2/v1",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "ownerSession": "861054BC-2B0B-42DA-8891-89201DE71E34",
+      "ownerSnapshot": "02EB6FB9-FE21-40F0-8118-A05847044920",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "id": "p6827",
+      "parent": "desktop",
+      "role": "process",
+      "label": "com.apple.mobilephone",
+      "ownerPid": 6827,
+      "availability": "bridged",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w0",
+      "screenHittable": false,
+      "class": "UIWindow",
+      "sourceId": "w0",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w0/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w0",
+      "screenHittable": false,
+      "class": "PhoneRootView",
+      "sourceId": "w0/v0",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarWindow",
+      "sourceId": "w1",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBar",
+      "sourceId": "w1/v0",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarBackgroundView",
+      "sourceId": "w1/v0/v0",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarForegroundView",
+      "sourceId": "w1/v0/v1",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        12,
+        0,
+        32,
+        40
+      ],
+      "framePoints": [
+        6,
+        0,
+        16,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarAirplaneModeItemView",
+      "sourceId": "w1/v0/v1/v0",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v1/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        56,
+        0,
+        40,
+        40
+      ],
+      "framePoints": [
+        28,
+        0,
+        20,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarDataNetworkItemView",
+      "sourceId": "w1/v0/v1/v1",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v1/v2",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        592,
+        0,
+        42,
+        40
+      ],
+      "framePoints": [
+        296,
+        0,
+        21,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarBatteryItemView",
+      "sourceId": "w1/v0/v1/v2",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v1/v3",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        508,
+        0,
+        78,
+        40
+      ],
+      "framePoints": [
+        254,
+        0,
+        39,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarBatteryPercentItemView",
+      "sourceId": "w1/v0/v1/v3",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v1/v4",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        284,
+        0,
+        72,
+        40
+      ],
+      "framePoints": [
+        142,
+        0,
+        36,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarTimeItemView",
+      "sourceId": "w1/v0/v1/v4",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v0/v1/v5",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        460,
+        0,
+        36,
+        40
+      ],
+      "framePoints": [
+        230,
+        0,
+        18,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarCustomItemView",
+      "sourceId": "w1/v0/v1/v5",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        640,
+        6
+      ],
+      "framePoints": [
+        0,
+        20,
+        320,
+        3
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarCorners",
+      "sourceId": "w1/v1",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        20,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v1/v0",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v1/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        40,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        20,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v1/v1",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v2",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        954,
+        640,
+        6
+      ],
+      "framePoints": [
+        0,
+        477,
+        320,
+        3
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIStatusBarCorners",
+      "sourceId": "w1/v2",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v2/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        954,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        477,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v2/v0",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1/v2/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "inactive-owner",
+      "enabled": true,
+      "framePixels": [
+        0,
+        954,
+        5,
+        5
+      ],
+      "framePoints": [
+        0,
+        477,
+        2.5,
+        2.5
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6827/w1/v2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6827/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v2/v1",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "ownerSession": "EBC5AA93-DF79-40C1-B272-F174CE085990",
+      "ownerSnapshot": "CE8876D9-B040-479A-9A82-D9A02D37DBCF",
+      "screenEligible": false,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "id": "p6809",
+      "parent": "desktop",
+      "role": "process",
+      "label": "com.apple.springboard",
+      "ownerPid": 6809,
+      "availability": "bridged",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w0",
+      "screenHittable": false,
+      "class": "SBAppWindow",
+      "sourceId": "w0",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w0/v0",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w0",
+      "screenHittable": false,
+      "class": "SBUIRootView",
+      "sourceId": "w0/v0",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w0/v1",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w0",
+      "screenHittable": false,
+      "class": "SBHostWrapperView",
+      "sourceId": "w0/v1",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w0/v2",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w0",
+      "screenHittable": false,
+      "class": "SBHostWrapperView",
+      "sourceId": "w0/v2",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w0/v3",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w0",
+      "screenHittable": false,
+      "class": "SBHostWrapperView",
+      "sourceId": "w0/v3",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w1",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w1",
+      "screenHittable": false,
+      "class": "UITextEffectsWindow",
+      "sourceId": "w1",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w2",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w2",
+      "screenHittable": false,
+      "class": "UIStatusBarWindow",
+      "sourceId": "w2",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w2/v0",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        40
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        20
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809/w2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w2",
+      "screenHittable": false,
+      "class": "UIStatusBar",
+      "sourceId": "w2/v0",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w3",
+      "visible": false,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w3",
+      "screenHittable": false,
+      "class": "SBUIAnimationWindow",
+      "sourceId": "w3",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w4",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6809",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6809/w4",
+      "screenHittable": false,
+      "class": "SBSpringBoardMetaHostingWindow",
+      "sourceId": "w4",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "ownerSession": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+      "ownerSnapshot": "4BA5EB32-2387-47DD-B0B7-5F4FCA813C8C",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "hid"
+      },
+      "actionable": false
+    },
+    {
+      "id": "p6801",
+      "parent": "desktop",
+      "role": "process",
+      "label": "backboardd",
+      "ownerPid": 6801,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p6799",
+      "parent": "desktop",
+      "role": "process",
+      "label": "com.apple.assistivetouchd",
+      "ownerPid": 6799,
+      "availability": "bridged",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w0",
+      "screenHittable": false,
+      "class": "HNDIgnoredWindow",
+      "sourceId": "w0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w0/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w0",
+      "screenHittable": false,
+      "class": "UIView",
+      "sourceId": "w0/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w1",
+      "screenHittable": false,
+      "class": "HNDWindow",
+      "sourceId": "w1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIView",
+      "sourceId": "w1/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0",
+      "identifier": "RockerDismiss",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w1",
+      "screenHittable": false,
+      "class": "HNDView",
+      "sourceId": "w1/v0/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1",
+      "visible": true,
+      "label": "Меню AssistiveTouch",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        20,
+        200,
+        600,
+        600
+      ],
+      "framePoints": [
+        10,
+        100,
+        300,
+        300
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRocker",
+      "sourceId": "w1/v0/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        20,
+        200,
+        600,
+        600
+      ],
+      "framePoints": [
+        10,
+        100,
+        300,
+        300
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v1",
+      "visible": false,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        256,
+        242,
+        94,
+        94
+      ],
+      "framePoints": [
+        128,
+        121,
+        47,
+        47
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w1",
+      "screenHittable": false,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v2",
+      "visible": true,
+      "label": "Поворот экрана",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        348,
+        218,
+        130,
+        170
+      ],
+      "framePoints": [
+        174,
+        109,
+        65,
+        85
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRockerButton",
+      "sourceId": "w1/v0/v1/v2",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v2/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        348,
+        218,
+        130,
+        116
+      ],
+      "framePoints": [
+        174,
+        109,
+        65,
+        58
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v2",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v2/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v2/v1",
+      "visible": true,
+      "label": "Поворот\nэкрана",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        356,
+        330,
+        114,
+        66
+      ],
+      "framePoints": [
+        178,
+        165,
+        57,
+        33
+      ],
+      "role": "label",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v2",
+      "identifier": "",
+      "value": "Поворот\nэкрана",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UILabel",
+      "sourceId": "w1/v0/v1/v2/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v3",
+      "visible": true,
+      "label": "Выкл. звук",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        460,
+        404,
+        130,
+        170
+      ],
+      "framePoints": [
+        230,
+        202,
+        65,
+        85
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRockerButton",
+      "sourceId": "w1/v0/v1/v3",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v3/v0",
+      "visible": true,
+      "label": "Выкл. звук",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        452,
+        516,
+        146,
+        34
+      ],
+      "framePoints": [
+        226,
+        258,
+        73,
+        17
+      ],
+      "role": "label",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v3",
+      "identifier": "",
+      "value": "Выкл. звук",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UILabel",
+      "sourceId": "w1/v0/v1/v3/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v3/v1",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        460,
+        404,
+        130,
+        116
+      ],
+      "framePoints": [
+        230,
+        202,
+        65,
+        58
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v3",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v3/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v4",
+      "visible": true,
+      "label": "Еще",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        348,
+        590,
+        130,
+        170
+      ],
+      "framePoints": [
+        174,
+        295,
+        65,
+        85
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRockerButton",
+      "sourceId": "w1/v0/v1/v4",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v4/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        348,
+        590,
+        130,
+        116
+      ],
+      "framePoints": [
+        174,
+        295,
+        65,
+        58
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v4",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v4/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v4/v1",
+      "visible": true,
+      "label": "Еще",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        386,
+        702,
+        54,
+        34
+      ],
+      "framePoints": [
+        193,
+        351,
+        27,
+        17
+      ],
+      "role": "label",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v4",
+      "identifier": "",
+      "value": "Еще",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UILabel",
+      "sourceId": "w1/v0/v1/v4/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v5",
+      "visible": true,
+      "label": "Тише",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        160,
+        590,
+        130,
+        170
+      ],
+      "framePoints": [
+        80,
+        295,
+        65,
+        85
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRockerButton",
+      "sourceId": "w1/v0/v1/v5",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v5/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        160,
+        590,
+        130,
+        116
+      ],
+      "framePoints": [
+        80,
+        295,
+        65,
+        58
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v5",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v5/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v5/v1",
+      "visible": true,
+      "label": "Тише",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        190,
+        702,
+        70,
+        34
+      ],
+      "framePoints": [
+        95,
+        351,
+        35,
+        17
+      ],
+      "role": "label",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v5",
+      "identifier": "",
+      "value": "Тише",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UILabel",
+      "sourceId": "w1/v0/v1/v5/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v6",
+      "visible": true,
+      "label": "Громче",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        50,
+        406,
+        130,
+        170
+      ],
+      "framePoints": [
+        25,
+        203,
+        65,
+        85
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRockerButton",
+      "sourceId": "w1/v0/v1/v6",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v6/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        50,
+        406,
+        130,
+        116
+      ],
+      "framePoints": [
+        25,
+        203,
+        65,
+        58
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v6",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v6/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v6/v1",
+      "visible": true,
+      "label": "Громче",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        66,
+        518,
+        98,
+        34
+      ],
+      "framePoints": [
+        33,
+        259,
+        49,
+        17
+      ],
+      "role": "label",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v6",
+      "identifier": "",
+      "value": "Громче",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UILabel",
+      "sourceId": "w1/v0/v1/v6/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v7",
+      "visible": true,
+      "label": "Блокировка экрана",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        160,
+        218,
+        130,
+        170
+      ],
+      "framePoints": [
+        80,
+        109,
+        65,
+        85
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRockerButton",
+      "sourceId": "w1/v0/v1/v7",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v7/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        160,
+        218,
+        130,
+        116
+      ],
+      "framePoints": [
+        80,
+        109,
+        65,
+        58
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v7",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v7/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v7/v1",
+      "visible": true,
+      "label": "Блокировка\nэкрана",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        144,
+        330,
+        162,
+        66
+      ],
+      "framePoints": [
+        72,
+        165,
+        81,
+        33
+      ],
+      "role": "label",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v7",
+      "identifier": "",
+      "value": "Блокировка\nэкрана",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UILabel",
+      "sourceId": "w1/v0/v1/v7/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v8",
+      "visible": true,
+      "label": "Назад",
+      "interactive": true,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        276,
+        452,
+        92,
+        92
+      ],
+      "framePoints": [
+        138,
+        226,
+        46,
+        46
+      ],
+      "role": "button",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "HNDRockerButton",
+      "sourceId": "w1/v0/v1/v8",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v8/v0",
+      "visible": true,
+      "label": "",
+      "interactive": false,
+      "occlusion": "clear",
+      "enabled": true,
+      "framePixels": [
+        276,
+        452,
+        92,
+        92
+      ],
+      "framePoints": [
+        138,
+        226,
+        46,
+        46
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v8",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 1,
+      "windowId": "p6799/w1",
+      "screenHittable": true,
+      "class": "UIImageView",
+      "sourceId": "w1/v0/v1/v8/v0",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v8/v1",
+      "visible": false,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        322,
+        536,
+        0,
+        0
+      ],
+      "framePoints": [
+        161,
+        268,
+        0,
+        0
+      ],
+      "role": "label",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1/v8",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w1",
+      "screenHittable": false,
+      "class": "UILabel",
+      "sourceId": "w1/v0/v1/v8/v1",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1/v0/v1/v9",
+      "visible": false,
+      "label": "",
+      "interactive": false,
+      "occlusion": "hidden-or-local-occlusion",
+      "enabled": true,
+      "framePixels": [
+        280,
+        460,
+        80,
+        80
+      ],
+      "framePoints": [
+        140,
+        230,
+        40,
+        40
+      ],
+      "role": "view",
+      "labelSource": "accessibility-or-control",
+      "parent": "p6799/w1/v0/v1",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "locallyHittable": 0,
+      "windowId": "p6799/w1",
+      "screenHittable": false,
+      "class": "HNDFingerView",
+      "sourceId": "w1/v0/v1/v9",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+      "ownerSnapshot": "81C8DA06-4F7D-4F1A-9275-47DDE8F3F766",
+      "screenEligible": true,
+      "defaultAction": {
+        "action": "tap",
+        "route": "vnc"
+      },
+      "actionable": false
+    },
+    {
+      "id": "p5670",
+      "parent": "desktop",
+      "role": "process",
+      "label": "mediaremoted",
+      "ownerPid": 5670,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p3231",
+      "parent": "desktop",
+      "role": "process",
+      "label": "geod",
+      "ownerPid": 3231,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p1415",
+      "parent": "desktop",
+      "role": "process",
+      "label": "mobile_assertion",
+      "ownerPid": 1415,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p313",
+      "parent": "desktop",
+      "role": "process",
+      "label": "notification_pro",
+      "ownerPid": 313,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p312",
+      "parent": "desktop",
+      "role": "process",
+      "label": "afcd",
+      "ownerPid": 312,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p308",
+      "parent": "desktop",
+      "role": "process",
+      "label": "filecoordination",
+      "ownerPid": 308,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p300",
+      "parent": "desktop",
+      "role": "process",
+      "label": "assetsd",
+      "ownerPid": 300,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p298",
+      "parent": "desktop",
+      "role": "process",
+      "label": "accountsd",
+      "ownerPid": 298,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p290",
+      "parent": "desktop",
+      "role": "process",
+      "label": "tccd",
+      "ownerPid": 290,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p280",
+      "parent": "desktop",
+      "role": "process",
+      "label": "BlueTool",
+      "ownerPid": 280,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p274",
+      "parent": "desktop",
+      "role": "process",
+      "label": "xpcd",
+      "ownerPid": 274,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p184",
+      "parent": "desktop",
+      "role": "process",
+      "label": "distnoted",
+      "ownerPid": 184,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p175",
+      "parent": "desktop",
+      "role": "process",
+      "label": "lsd",
+      "ownerPid": 175,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p159",
+      "parent": "desktop",
+      "role": "process",
+      "label": "apsd",
+      "ownerPid": 159,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p144",
+      "parent": "desktop",
+      "role": "process",
+      "label": "itunesstored",
+      "ownerPid": 144,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p141",
+      "parent": "desktop",
+      "role": "process",
+      "label": "networkd_privile",
+      "ownerPid": 141,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p137",
+      "parent": "desktop",
+      "role": "process",
+      "label": "aggregated",
+      "ownerPid": 137,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p135",
+      "parent": "desktop",
+      "role": "process",
+      "label": "networkd",
+      "ownerPid": 135,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p84",
+      "parent": "desktop",
+      "role": "process",
+      "label": "notifyd",
+      "ownerPid": 84,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p75",
+      "parent": "desktop",
+      "role": "process",
+      "label": "BTServer",
+      "ownerPid": 75,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p74",
+      "parent": "desktop",
+      "role": "process",
+      "label": "CommCenterClassi",
+      "ownerPid": 74,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p69",
+      "parent": "desktop",
+      "role": "process",
+      "label": "com.apple.TextInput.kbd",
+      "ownerPid": 69,
+      "availability": "no-endpoint",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p63",
+      "parent": "desktop",
+      "role": "process",
+      "label": "configd",
+      "ownerPid": 63,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p62",
+      "parent": "desktop",
+      "role": "process",
+      "label": "AppleIDAuthAgent",
+      "ownerPid": 62,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p60",
+      "parent": "desktop",
+      "role": "process",
+      "label": "fairplayd.N90",
+      "ownerPid": 60,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p59",
+      "parent": "desktop",
+      "role": "process",
+      "label": "fseventsd",
+      "ownerPid": 59,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p57",
+      "parent": "desktop",
+      "role": "process",
+      "label": "iaptransportd",
+      "ownerPid": 57,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p56",
+      "parent": "desktop",
+      "role": "process",
+      "label": "com.apple.imagent",
+      "ownerPid": 56,
+      "availability": "no-endpoint",
+      "uiCandidate": true,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p54",
+      "parent": "desktop",
+      "role": "process",
+      "label": "locationd",
+      "ownerPid": 54,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p52",
+      "parent": "desktop",
+      "role": "process",
+      "label": "mDNSResponder",
+      "ownerPid": 52,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p50",
+      "parent": "desktop",
+      "role": "process",
+      "label": "mediaserverd",
+      "ownerPid": 50,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p46",
+      "parent": "desktop",
+      "role": "process",
+      "label": "deleted",
+      "ownerPid": 46,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p44",
+      "parent": "desktop",
+      "role": "process",
+      "label": "installd",
+      "ownerPid": 44,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p42",
+      "parent": "desktop",
+      "role": "process",
+      "label": "lockdownd",
+      "ownerPid": 42,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p34",
+      "parent": "desktop",
+      "role": "process",
+      "label": "powerd",
+      "ownerPid": 34,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p32",
+      "parent": "desktop",
+      "role": "process",
+      "label": "syslogd",
+      "ownerPid": 32,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p31",
+      "parent": "desktop",
+      "role": "process",
+      "label": "timed",
+      "ownerPid": 31,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p30",
+      "parent": "desktop",
+      "role": "process",
+      "label": "ptpd",
+      "ownerPid": 30,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p28",
+      "parent": "desktop",
+      "role": "process",
+      "label": "wifid",
+      "ownerPid": 28,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p26",
+      "parent": "desktop",
+      "role": "process",
+      "label": "UserEventAgent",
+      "ownerPid": 26,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    },
+    {
+      "id": "p1",
+      "parent": "desktop",
+      "role": "process",
+      "label": "launchd",
+      "ownerPid": 1,
+      "availability": "no-endpoint",
+      "uiCandidate": false,
+      "actions": [],
+      "actionable": false
+    }
+  ],
+  "windows": [
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1cd8e6d0",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 0,
+      "class": "UIWindow",
+      "parent": "p7491",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p7491/w1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1cd6f5c0",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 1000,
+      "class": "UIStatusBarWindow",
+      "parent": "p7491",
+      "ownerPid": 7491,
+      "ownerBundleId": "org.openrevive.TouchProbe",
+      "ownerKind": "application",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6830/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1fdb5d90",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 1000,
+      "class": "UIStatusBarWindow",
+      "parent": "p6830",
+      "ownerPid": 6830,
+      "ownerBundleId": "com.apple.mobilemail",
+      "ownerKind": "application",
+      "screenEligible": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1e560e60",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 0,
+      "class": "UIWindow",
+      "parent": "p6827",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "screenEligible": false
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6827/w1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1e5e8030",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 1000,
+      "class": "UIStatusBarWindow",
+      "parent": "p6827",
+      "ownerPid": 6827,
+      "ownerBundleId": "com.apple.mobilephone",
+      "ownerKind": "application",
+      "screenEligible": false
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1e17bd40",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": -1,
+      "class": "SBAppWindow",
+      "parent": "p6809",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w1",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1e192d60",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 10,
+      "class": "UITextEffectsWindow",
+      "parent": "p6809",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w2",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1d5a7c40",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 999,
+      "class": "UIStatusBarWindow",
+      "parent": "p6809",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w3",
+      "visible": false,
+      "label": "",
+      "interactive": false,
+      "enabled": true,
+      "identity": "0x1e2907f0",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 1048,
+      "class": "SBUIAnimationWindow",
+      "parent": "p6809",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "activate",
+        "resolve-tap"
+      ],
+      "id": "p6809/w4",
+      "visible": false,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1d5ac660",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 2300,
+      "class": "SBSpringBoardMetaHostingWindow",
+      "parent": "p6809",
+      "ownerPid": 6809,
+      "ownerBundleId": "com.apple.springboard",
+      "ownerKind": "springboard",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w0",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1d596610",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 2206,
+      "class": "HNDIgnoredWindow",
+      "parent": "p6799",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "screenEligible": true
+    },
+    {
+      "actions": [
+        "resolve-tap"
+      ],
+      "id": "p6799/w1",
+      "visible": true,
+      "label": "",
+      "interactive": true,
+      "enabled": true,
+      "identity": "0x1d599670",
+      "framePixels": [
+        0,
+        0,
+        640,
+        960
+      ],
+      "framePoints": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "role": "window",
+      "labelSource": "accessibility-or-control",
+      "identifier": "",
+      "value": "",
+      "secure": false,
+      "windowLevel": 2206,
+      "class": "HNDWindow",
+      "parent": "p6799",
+      "ownerPid": 6799,
+      "ownerBundleId": "com.apple.assistivetouchd",
+      "ownerKind": "assistive-touch",
+      "screenEligible": true
+    }
+  ],
+  "nodeCount": 169,
+  "uiNodeCount": 112,
+  "coverage": {
+    "enumeratedProcesses": 56,
+    "bridgedProcesses": 5,
+    "capturedProcesses": 5,
+    "completeForKnownScreenOwners": true,
+    "completeForBridgedOwners": false,
+    "unbridgedUICandidates": [
+      {
+        "error": "Bridge request failed: -1",
+        "name": "Preferences",
+        "backgroundApplication": true,
+        "executable": "/Applications/Preferences.app/Preferences",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.apple.Preferences",
+        "pid": 7152
+      },
+      {
+        "name": "kbd",
+        "backgroundApplication": true,
+        "executable": "/Applications/kbd.app/kbd",
+        "uiCandidate": true,
+        "status": "no-endpoint",
+        "bundleId": "com.apple.TextInput.kbd",
+        "pid": 69
+      },
+      {
+        "name": "imagent",
+        "backgroundApplication": true,
+        "executable": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent",
+        "uiCandidate": true,
+        "status": "no-endpoint",
+        "bundleId": "com.apple.imagent",
+        "pid": 56
+      }
+    ],
+    "unavailableTrees": [],
+    "unavailableEndpoints": [
+      {
+        "error": "Bridge request failed: -1",
+        "name": "Preferences",
+        "backgroundApplication": true,
+        "executable": "/Applications/Preferences.app/Preferences",
+        "uiCandidate": true,
+        "status": "unavailable",
+        "bundleId": "com.apple.Preferences",
+        "pid": 7152
+      }
+    ],
+    "criticalUnavailableEndpoints": [],
+    "truncatedOwners": [],
+    "occlusionModel": "iOS6-window-level-plus-live-hit-tests; unknown unbridged UI has no inferred tree",
+    "allKernelProcessesHaveUITrees": false
+  },
+  "snapshotFile": "/Users/oz/Projects/OpenRevive/.artifacts/unified-ui/final/observe-device-menu.json"
+}

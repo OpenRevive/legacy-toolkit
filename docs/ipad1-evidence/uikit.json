@@ -1,0 +1,18 @@
+{
+  "nonce": "IPAD-UIKit-6f7debc7be Привет 日本語",
+  "receipt": {
+    "visibleResult": "Applied 1: IPAD-UIKit-6f7debc7be Привет 日本語",
+    "clicks": 1,
+    "text": "IPAD-UIKit-6f7debc7be Привет 日本語"
+  },
+  "secureRedacted": true,
+  "forgedRejected": true,
+  "consumedRejected": true,
+  "oldPIDRejected": true,
+  "screenPixels": [
+    0,
+    0,
+    768,
+    1024
+  ]
+}

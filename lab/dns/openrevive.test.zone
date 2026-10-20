@@ -1,0 +1,8 @@
+$ORIGIN openrevive.test.
+$TTL 30
+@ IN SOA ns.openrevive.test. hostmaster.openrevive.test. (
+    2026101501 60 60 3600 30
+)
+@     IN NS ns.openrevive.test.
+ns    IN A  172.30.53.2
+hello IN A  172.30.53.3

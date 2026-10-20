@@ -1,0 +1,305 @@
+{
+  "captureMode": "one continuous authenticated VNC session; native guarded target resolution",
+  "floating": {
+    "actions": [
+      "resolve-tap"
+    ],
+    "id": "p6799/w1/v0/v1",
+    "visible": true,
+    "label": "Меню AssistiveTouch",
+    "interactive": true,
+    "occlusion": "clear",
+    "enabled": true,
+    "framePixels": [
+      526,
+      312,
+      122,
+      122
+    ],
+    "framePoints": [
+      263,
+      156,
+      61,
+      61
+    ],
+    "role": "button",
+    "labelSource": "accessibility-or-control",
+    "parent": "p6799/w1/v0",
+    "identifier": "",
+    "value": "",
+    "secure": false,
+    "locallyHittable": 1,
+    "windowId": "p6799/w1",
+    "screenHittable": true,
+    "class": "HNDRocker",
+    "sourceId": "w1/v0/v1",
+    "ownerPid": 6799,
+    "ownerBundleId": "com.apple.assistivetouchd",
+    "ownerKind": "assistive-touch",
+    "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+    "ownerSnapshot": "98925E25-1665-4187-B2AA-340F5EF3A44A",
+    "screenEligible": true,
+    "defaultAction": {
+      "action": "tap",
+      "route": "vnc"
+    },
+    "actionable": true
+  },
+  "home": {
+    "actions": [
+      "resolve-tap"
+    ],
+    "id": "p6799/w1/v0/v1/v2",
+    "visible": true,
+    "label": "Домой",
+    "interactive": true,
+    "occlusion": "clear",
+    "enabled": true,
+    "framePixels": [
+      238,
+      572,
+      164,
+      190
+    ],
+    "framePoints": [
+      119,
+      286,
+      82,
+      95
+    ],
+    "role": "button",
+    "labelSource": "accessibility-or-control",
+    "parent": "p6799/w1/v0/v1",
+    "identifier": "",
+    "value": "",
+    "secure": false,
+    "locallyHittable": 1,
+    "windowId": "p6799/w1",
+    "screenHittable": true,
+    "class": "HNDRockerButton",
+    "sourceId": "w1/v0/v1/v2",
+    "ownerPid": 6799,
+    "ownerBundleId": "com.apple.assistivetouchd",
+    "ownerKind": "assistive-touch",
+    "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+    "ownerSnapshot": "FFCA064A-2844-4527-A306-5026E1F43676",
+    "screenEligible": true,
+    "defaultAction": {
+      "action": "tap",
+      "route": "vnc"
+    },
+    "actionable": true
+  },
+  "nativeScreenshot": {
+    "path": "/Users/oz/Projects/OpenRevive/.artifacts/unified-ui/final/observe-menu-native.png",
+    "bytes": 99929,
+    "sha256": "2ec4d91cacfe406453f737cf096a6809e0d5d1eefe008f29d2b660e697f194a1",
+    "udid": "52ae27b69a24411249224db7ac856ecdd2faef13"
+  },
+  "deviceControls": [
+    {
+      "id": "p6799/w1/v0/v1",
+      "class": "HNDRocker",
+      "label": "Меню AssistiveTouch",
+      "role": "button",
+      "framePixels": [
+        20,
+        200,
+        600,
+        600
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v2",
+      "class": "HNDRockerButton",
+      "label": "Поворот экрана",
+      "role": "button",
+      "framePixels": [
+        348,
+        218,
+        130,
+        170
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v2/v1",
+      "class": "UILabel",
+      "label": "Поворот\nэкрана",
+      "role": "label",
+      "framePixels": [
+        356,
+        330,
+        114,
+        66
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v3",
+      "class": "HNDRockerButton",
+      "label": "Выкл. звук",
+      "role": "button",
+      "framePixels": [
+        460,
+        404,
+        130,
+        170
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v3/v0",
+      "class": "UILabel",
+      "label": "Выкл. звук",
+      "role": "label",
+      "framePixels": [
+        452,
+        516,
+        146,
+        34
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v4",
+      "class": "HNDRockerButton",
+      "label": "Еще",
+      "role": "button",
+      "framePixels": [
+        348,
+        590,
+        130,
+        170
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v4/v1",
+      "class": "UILabel",
+      "label": "Еще",
+      "role": "label",
+      "framePixels": [
+        386,
+        702,
+        54,
+        34
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v5",
+      "class": "HNDRockerButton",
+      "label": "Тише",
+      "role": "button",
+      "framePixels": [
+        160,
+        590,
+        130,
+        170
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v5/v1",
+      "class": "UILabel",
+      "label": "Тише",
+      "role": "label",
+      "framePixels": [
+        190,
+        702,
+        70,
+        34
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v6",
+      "class": "HNDRockerButton",
+      "label": "Громче",
+      "role": "button",
+      "framePixels": [
+        50,
+        406,
+        130,
+        170
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v6/v1",
+      "class": "UILabel",
+      "label": "Громче",
+      "role": "label",
+      "framePixels": [
+        66,
+        518,
+        98,
+        34
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v7",
+      "class": "HNDRockerButton",
+      "label": "Блокировка экрана",
+      "role": "button",
+      "framePixels": [
+        160,
+        218,
+        130,
+        170
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v7/v1",
+      "class": "UILabel",
+      "label": "Блокировка\nэкрана",
+      "role": "label",
+      "framePixels": [
+        144,
+        330,
+        162,
+        66
+      ],
+      "actionable": true
+    },
+    {
+      "id": "p6799/w1/v0/v1/v8",
+      "class": "HNDRockerButton",
+      "label": "Назад",
+      "role": "button",
+      "framePixels": [
+        276,
+        452,
+        92,
+        92
+      ],
+      "actionable": true
+    }
+  ],
+  "backLocated": true,
+  "after": {
+    "iconPage": 0,
+    "surface": "home",
+    "frontmostPid": 0,
+    "session": "D40A1A7A-8CCD-4A45-9065-393D55F3D588",
+    "visibleWindowIdentities": [
+      "0x1e17bd40:SBAppWindow",
+      "0x1d5a7c40:UIStatusBarWindow"
+    ],
+    "frontmostBundleId": "",
+    "alertIdentity": "0x0",
+    "screenLocked": false,
+    "alertClass": "",
+    "token": "0:0x0:0:0:0:0x1e17bd40:SBAppWindow,0x1d5a7c40:UIStatusBarWindow",
+    "passcodeEnabled": false,
+    "pid": 6809,
+    "switcherVisible": false,
+    "notificationCenterVisible": false
+  },
+  "product": "iPhone3,1",
+  "ios": "6.1.3"
+}

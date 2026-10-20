@@ -1,0 +1,176 @@
+{
+  "skeleton-http": {
+    "exit": 0,
+    "result": {
+      "checks": [
+        "populated profile/group/wall, five news kinds, all nine singular attachments, strict audio/video/photo/note/geo consumer fields",
+        "all generic mutations perform a signed HTTP round trip; photo/video multipart stages complete and media IDs resolve",
+        "each literal execute template returns its own expected composition, including profile and comments enrichment",
+        "safe empty layouts; unknown or injected scripts, duplicate keys, invalid parameters and invalid authentication rejected",
+        "synthetic audio/video bytes are real stored assets; HEAD, full, prefix/suffix byte-range and unsatisfiable-range responses verified"
+      ],
+      "entities_checked": [
+        "attachment_app",
+        "attachment_audio",
+        "attachment_graffiti",
+        "attachment_link",
+        "attachment_note",
+        "attachment_photo",
+        "attachment_poll",
+        "attachment_posted_photo",
+        "attachment_video",
+        "audio_lookup_item",
+        "common_news_item",
+        "dialog_preview",
+        "geo",
+        "group",
+        "history_message",
+        "medium_profile_payload",
+        "note_full",
+        "note_summary",
+        "photo",
+        "photo_comment",
+        "profile",
+        "video_lookup_item",
+        "wall_comment",
+        "wall_or_news_post"
+      ],
+      "attachment_types": [
+        "app",
+        "audio",
+        "graffiti",
+        "link",
+        "note",
+        "photo",
+        "poll",
+        "posted_photo",
+        "video"
+      ],
+      "execute_templates": [
+        "execute-0xc792c",
+        "execute-0xc79ec",
+        "execute-0xc7b1c",
+        "execute-0xc812c",
+        "execute-0xc823c",
+        "execute-0xc82ac",
+        "execute-0xc865c",
+        "execute-0xc866c",
+        "execute-0xc8cec",
+        "execute-0xc8e0c"
+      ],
+      "physical_iphone": false,
+      "http_receipts": 90,
+      "successful_methods": [
+        "apns.registerDevice",
+        "apns.unregisterDevice",
+        "audio.get",
+        "auth.getSessionSecure",
+        "auth.getTokenSecure",
+        "execute",
+        "friends.get",
+        "friends.getMutual",
+        "friends.getOnline",
+        "getGroupsFull",
+        "getProfiles",
+        "likes.add",
+        "likes.delete",
+        "likes.getList",
+        "likes.isLiked",
+        "messages.delete",
+        "messages.get",
+        "messages.getDialogs",
+        "messages.getHistory",
+        "messages.getLongPollServer",
+        "messages.markAsNew",
+        "messages.markAsRead",
+        "messages.send",
+        "newsfeed.get",
+        "notes.getById",
+        "photos.createComment",
+        "photos.deleteComment",
+        "photos.getById",
+        "photos.getComments",
+        "photos.getProfile",
+        "photos.getUploadServer",
+        "photos.getWallUploadServer",
+        "photos.saveWallPhoto",
+        "places.getCityById",
+        "status.get",
+        "video.get",
+        "video.save",
+        "wall.addComment",
+        "wall.addLike",
+        "wall.delete",
+        "wall.deleteComment",
+        "wall.deleteLike",
+        "wall.get",
+        "wall.getComments",
+        "wall.getLikes",
+        "wall.post"
+      ],
+      "background_handler_errors": []
+    }
+  },
+  "skeleton-persistence": {
+    "exit": 0,
+    "result": {
+      "checks": [
+        "message deletion is per account, filters history/dialog/unread, and preserves canonical message/events for the peer",
+        "posts, comments/replies, likes and photo likes are shared raw domain rows, independently projected for both accounts",
+        "positive mutations have forbidden third-account and invalid-reply controls with no partial mutation",
+        "video upload commit is durable and idempotent; corrupt/truncated/wrong-field uploads leave pending video unready and create no wall post",
+        "restarts retain sessions, all domain changes and hashed registrations; deleted objects stay deleted, canonical message/events unchanged, integrity/FK checks pass"
+      ],
+      "physical_iphone": false,
+      "restart_count": 2,
+      "http_receipts": 42,
+      "successful_methods": [
+        "apns.registerDevice",
+        "auth.getSessionSecure",
+        "auth.getTokenSecure",
+        "likes.add",
+        "likes.isLiked",
+        "messages.delete",
+        "messages.get",
+        "messages.getHistory",
+        "messages.send",
+        "video.get",
+        "video.save",
+        "wall.addComment",
+        "wall.addLike",
+        "wall.delete",
+        "wall.deleteComment",
+        "wall.get",
+        "wall.getComments",
+        "wall.getLikes",
+        "wall.post"
+      ],
+      "background_handler_errors": []
+    }
+  },
+  "messaging": {
+    "exit": 0,
+    "stdout": "{\"suite\": \"persistence\", \"checks\": [\"numeric send ID and canonical raw Unicode row with atomic per-user events\", \"history/dialog direction, peer isolation, XML text and shared unread count\", \"recipient-only read state, idempotent repeated reads, all-or-nothing forbidden batch\", \"invalid recipient/body/type/signature do not write messages, events or consume IDs\", \"intentional identical messages remain distinct, concurrent IDs unique, pagination deterministic\", \"migration preserves the original seed; messages/events/sessions/ID counter survive HTTP service restart\"], \"http_receipts\": 51, \"background_handler_errors\": [], \"actual_phone_execution\": false}\n",
+    "stderr": ""
+  },
+  "longpoll": {
+    "exit": 0,
+    "stdout": "{\"suite\": \"longpoll\", \"checks\": [\"a pending HTTP long poll wakes after commit with incoming/outgoing flags, correct peer and Unicode; other user sees no events\", \"real timeout, deterministic replay, malformed/future cursor recovery and invalid key handling\", \"canonical read and unread mutations emit the exact legacy flag-reset/set events\", \"keys and event cursors remain usable after reopening the HTTP service and database\", \"uncommitted rows are invisible; committed events from a separate store are found without in-memory notification\", \"more than 100 durable events paginate without loss or duplicate IDs; expired key is rejected\"], \"http_receipts\": 139, \"background_handler_errors\": [], \"actual_phone_execution\": false}\n",
+    "stderr": ""
+  },
+  "photos": {
+    "exit": 0,
+    "stdout": "{\"checks\": [\"signed ticket + MIME-mismatched legacy multipart + save; raw JPEG bytes in the common DB; foreign save rejected and retry idempotent\", \"unknown/expired tickets and malformed, duplicate, gapped, corrupt or oversized multipart do not partially persist media\", \"photo permalink becomes a canonical attachment, atomic message/event rows, exact live event marker and singular history/dialog projection\", \"unshared photo/history isolation, forwarding only after receipt, byte-identical capability URL and actual canonical read state\", \"same bytes deduplicate blobs while photo ownership/IDs remain distinct; PNG metadata and ticket expiry are persisted\", \"photos/blobs/attachments/keys/events/session survive reopening the HTTP service, old seed is retained and text send remains usable\"], \"http_requests\": 61, \"background_handler_errors\": [], \"physical_iphone\": false, \"canonical_bytes_verified\": true}\n",
+    "stderr": ""
+  },
+  "photo-api": {
+    "exit": 0,
+    "stdout": "{\"method_check\": \"profile\", \"checks\": [\"separate profile membership excludes private message and ordinary wall photos\", \"plain typed photos, exact escaping and hash-verified original image bytes\", \"owner selection, reverse ordering, pages, zero and invalid-input controls\", \"actual medium-profile execute and membership persist without resurrection\"], \"signed_http_requests\": 36, \"physical_iphone\": false, \"independent_sqlite_checks\": true, \"background_handler_errors\": [], \"at\": 1792132421.158547}\n{\"method_check\": \"comments\", \"checks\": [\"numeric legacy fields and text decoded exactly once\", \"stable asc/desc pages and total independent of page size/offset\", \"private and owner-mismatch controls with populated public positive controls\", \"both original photo execute templates, author profiles and reopening\"], \"signed_http_requests\": 41, \"physical_iphone\": false, \"independent_sqlite_checks\": true, \"background_handler_errors\": [], \"at\": 1792132422.231076}\n{\"method_check\": \"create\", \"checks\": [\"authenticated author, raw Unicode/newlines and same-photo reply persisted atomically\", \"UTF-16 boundary, empty/control-character and invalid-reply failures leave no partial rows\", \"wrong-owner and private-target denial; prior message-recipient access preserved\", \"fresh signed read and independent SQLite rows survive a real server reopen\"], \"signed_http_requests\": 33, \"physical_iphone\": false, \"independent_sqlite_checks\": true, \"background_handler_errors\": [], \"at\": 1792132423.309972}\n{\"method_check\": \"delete\", \"checks\": [\"author deletion and photo-owner moderation with forbidden third-account controls\", \"CID bound to exact photo/kind/owner; other comments remain byte-for-byte intact\", \"revoked current access is enforced without losing owner moderation\", \"idempotent tombstones, correct totals and no resurrection after reopening\"], \"signed_http_requests\": 33, \"physical_iphone\": false, \"independent_sqlite_checks\": true, \"background_handler_errors\": [], \"at\": 1792132424.3774521}\n{\"method_check\": \"likes\", \"checks\": [\"1051 canonical likes fully reachable through stable explicit API pages\", \"full filtered totals precede pagination; Friends/published intersections work\", \"private, malformed flags and target errors with real populated positive controls\", \"actual no-count native execute receives 1000 profiles rather than twenty; state persists\"], \"signed_http_requests\": 40, \"physical_iphone\": false, \"independent_sqlite_checks\": true, \"background_handler_errors\": [], \"at\": 1792132425.4538}\n",
+    "stderr": ""
+  },
+  "wall": {
+    "exit": 0,
+    "stdout": "{\"checks\": [\"native equality collision positive control reproduced from unchanged canonical seconds\", \"all same-owner/type items survive distinct stable projected dates\", \"three same-second posts keep IDs, order and canonical timestamps\", \"projection stable across new inserts, pagination and a real service reopen\", \"HTTP unlike after reload persists a zero count independently of the native disabled-heart bug\"], \"canonical_creation_times_unchanged\": true, \"physical_iphone\": false, \"http_requests\": 13}\n",
+    "stderr": ""
+  }
+}

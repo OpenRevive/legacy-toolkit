@@ -1,0 +1,120 @@
+{
+  "configuration": {
+    "run": "ipad1-2b0cbaf125b84133a0eebe7be3d75f09",
+    "dns": "213.163.200.236",
+    "sites": [
+      {
+        "domain": "hello.openrevive.test",
+        "ipv4": "213.163.200.236",
+        "service": "openrevive-upcloud-lab",
+        "deployment_id": "72443119-389a-4f22-b339-834bff4e8668",
+        "anchor": "root-v1"
+      },
+      {
+        "name": "vscale",
+        "ipv4": "45.8.249.60",
+        "domain": "vscale.openrevive.test",
+        "service": "openrevive-vscale-lab",
+        "deployment_id": "00520c13-a59e-4328-9f9c-230b9a3eb609",
+        "anchor": "root-v2"
+      }
+    ]
+  },
+  "receipt": {
+    "run": "ipad1-2b0cbaf125b84133a0eebe7be3d75f09",
+    "tests": [
+      {
+        "unknownCA": "certificate trust rejected: status=0 result=5",
+        "https": {
+          "tls": "TLSv1.2",
+          "domain": "hello.openrevive.test",
+          "dns": "213.163.200.236",
+          "trustResult": 4,
+          "health": {
+            "name": "openrevive-lab-sg",
+            "ipv4": "213.163.200.236",
+            "domain": "hello.openrevive.test",
+            "region": "sg-sin1",
+            "service": "openrevive-upcloud-lab",
+            "deployment_id": "72443119-389a-4f22-b339-834bff4e8668"
+          },
+          "dnsUDP": "213.163.200.236",
+          "dnsTCP": "213.163.200.236",
+          "trusted": true,
+          "status": 200
+        },
+        "wrongName": "certificate trust rejected: status=0 result=5",
+        "http": {
+          "tls": "none",
+          "domain": "hello.openrevive.test",
+          "dns": "213.163.200.236",
+          "trustResult": 0,
+          "health": {
+            "name": "openrevive-lab-sg",
+            "ipv4": "213.163.200.236",
+            "domain": "hello.openrevive.test",
+            "region": "sg-sin1",
+            "service": "openrevive-upcloud-lab",
+            "deployment_id": "72443119-389a-4f22-b339-834bff4e8668"
+          },
+          "dnsUDP": "213.163.200.236",
+          "dnsTCP": "213.163.200.236",
+          "trusted": false,
+          "status": 200
+        }
+      },
+      {
+        "unknownCA": "certificate trust rejected: status=0 result=5",
+        "https": {
+          "tls": "TLSv1.2",
+          "domain": "vscale.openrevive.test",
+          "dns": "213.163.200.236",
+          "trustResult": 4,
+          "health": {
+            "name": "vscale",
+            "ipv4": "45.8.249.60",
+            "domain": "vscale.openrevive.test",
+            "service": "openrevive-vscale-lab",
+            "deployment_id": "00520c13-a59e-4328-9f9c-230b9a3eb609"
+          },
+          "dnsUDP": "45.8.249.60",
+          "dnsTCP": "45.8.249.60",
+          "trusted": true,
+          "status": 200
+        },
+        "wrongName": "certificate trust rejected: status=0 result=5",
+        "http": {
+          "tls": "none",
+          "domain": "vscale.openrevive.test",
+          "dns": "213.163.200.236",
+          "trustResult": 0,
+          "health": {
+            "name": "vscale",
+            "ipv4": "45.8.249.60",
+            "domain": "vscale.openrevive.test",
+            "service": "openrevive-vscale-lab",
+            "deployment_id": "00520c13-a59e-4328-9f9c-230b9a3eb609"
+          },
+          "dnsUDP": "45.8.249.60",
+          "dnsTCP": "45.8.249.60",
+          "trusted": false,
+          "status": 200
+        }
+      }
+    ],
+    "platform": "iPad",
+    "rendered": [
+      "hello.openrevive.test",
+      "vscale.openrevive.test"
+    ],
+    "ios": "5.1.1",
+    "passed": true
+  },
+  "serverLogs": {
+    "upcloud": "[client] - - [16/Oct/2026:06:05:24 +0000] \"GET /health?probe=ipad1-2b0cbaf125b84133a0eebe7be3d75f09 HTTP/1.0\" 200 206 \"-\" \"OpenRevive-iOS5-6-DNSProbe\"\n[client] - - [16/Oct/2026:06:05:25 +0000] \"GET /health?probe=ipad1-2b0cbaf125b84133a0eebe7be3d75f09 HTTP/1.0\" 200 206 \"-\" \"OpenRevive-iOS5-6-DNSProbe\"\n",
+    "vscale": "[client] - - [16/Oct/2026:06:05:28 +0000] \"GET /health?probe=ipad1-2b0cbaf125b84133a0eebe7be3d75f09 HTTP/1.0\" 200 170 \"-\" \"OpenRevive-iOS5-6-DNSProbe\"\n[client] - - [16/Oct/2026:06:05:33 +0000] \"GET /health?probe=ipad1-2b0cbaf125b84133a0eebe7be3d75f09 HTTP/1.0\" 200 170 \"-\" \"OpenRevive-iOS5-6-DNSProbe\"\n"
+  },
+  "systemDNSUnchanged": true,
+  "trustScope": "app-explicit-anchors",
+  "systemCAProfileInstalled": false
+}

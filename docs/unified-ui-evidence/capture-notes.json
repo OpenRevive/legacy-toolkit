@@ -1,0 +1,6 @@
+{
+  "veencyNewConnection": "G2 read the actual open AssistiveTouch tree and its Home action reached Home, but a new RFB capture omitted the overlay. Waiting and requesting a second frame did not consistently resolve it.",
+  "nativeScreenshot": "The standard screenshot service captured the actual open menu, with geometry matching assistive-menu-tree.json.",
+  "continuousVNC": "A continuous authenticated RFB session opened Device, captured its menu and used its tree-located Back then Home buttons.",
+  "recommendation": "Prefer native screenshots for overlays; compare real tree/owner/result and never infer absence from the single incomplete Veency frame."
+}

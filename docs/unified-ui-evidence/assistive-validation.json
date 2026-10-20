@@ -1,0 +1,286 @@
+{
+  "floating": {
+    "actions": [
+      "resolve-tap"
+    ],
+    "id": "p6799/w1/v0/v1",
+    "visible": true,
+    "label": "Меню AssistiveTouch",
+    "interactive": true,
+    "occlusion": "clear",
+    "enabled": true,
+    "framePixels": [
+      526,
+      312,
+      122,
+      122
+    ],
+    "framePoints": [
+      263,
+      156,
+      61,
+      61
+    ],
+    "role": "button",
+    "labelSource": "accessibility-or-control",
+    "parent": "p6799/w1/v0",
+    "identifier": "",
+    "value": "",
+    "secure": false,
+    "locallyHittable": 1,
+    "windowId": "p6799/w1",
+    "screenHittable": true,
+    "class": "HNDRocker",
+    "sourceId": "w1/v0/v1",
+    "ownerPid": 6799,
+    "ownerBundleId": "com.apple.assistivetouchd",
+    "ownerKind": "assistive-touch",
+    "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+    "ownerSnapshot": "C388148E-D8D3-4C26-BFB9-E04D5B763E3E",
+    "screenEligible": true,
+    "defaultAction": {
+      "action": "tap",
+      "route": "vnc"
+    },
+    "actionable": true
+  },
+  "home": {
+    "actions": [
+      "resolve-tap"
+    ],
+    "id": "p6799/w1/v0/v1/v2",
+    "visible": true,
+    "label": "Домой",
+    "interactive": true,
+    "occlusion": "clear",
+    "enabled": true,
+    "framePixels": [
+      238,
+      572,
+      164,
+      190
+    ],
+    "framePoints": [
+      119,
+      286,
+      82,
+      95
+    ],
+    "role": "button",
+    "labelSource": "accessibility-or-control",
+    "parent": "p6799/w1/v0/v1",
+    "identifier": "",
+    "value": "",
+    "secure": false,
+    "locallyHittable": 1,
+    "windowId": "p6799/w1",
+    "screenHittable": true,
+    "class": "HNDRockerButton",
+    "sourceId": "w1/v0/v1/v2",
+    "ownerPid": 6799,
+    "ownerBundleId": "com.apple.assistivetouchd",
+    "ownerKind": "assistive-touch",
+    "ownerSession": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+    "ownerSnapshot": "D71C9E4A-71F1-416D-B306-23CD18EBF8A2",
+    "screenEligible": true,
+    "defaultAction": {
+      "action": "tap",
+      "route": "vnc"
+    },
+    "actionable": true
+  },
+  "openReceipt": {
+    "layoutTruncated": 0,
+    "dispatched": true,
+    "requiresVerification": true,
+    "ownerKind": "assistive-touch",
+    "route": "vnc",
+    "windows": [
+      {
+        "actions": [
+          "resolve-tap"
+        ],
+        "id": "w0",
+        "visible": true,
+        "label": "",
+        "interactive": true,
+        "enabled": true,
+        "identity": "0x1d596610",
+        "framePixels": [
+          0,
+          0,
+          640,
+          960
+        ],
+        "framePoints": [
+          0,
+          0,
+          320,
+          480
+        ],
+        "role": "window",
+        "labelSource": "accessibility-or-control",
+        "identifier": "",
+        "value": "",
+        "secure": false,
+        "windowLevel": 2206,
+        "class": "HNDIgnoredWindow"
+      },
+      {
+        "actions": [
+          "resolve-tap"
+        ],
+        "id": "w1",
+        "visible": true,
+        "label": "",
+        "interactive": true,
+        "enabled": true,
+        "identity": "0x1d599670",
+        "framePixels": [
+          0,
+          0,
+          640,
+          960
+        ],
+        "framePoints": [
+          0,
+          0,
+          320,
+          480
+        ],
+        "role": "window",
+        "labelSource": "accessibility-or-control",
+        "identifier": "",
+        "value": "",
+        "secure": false,
+        "windowLevel": 2206,
+        "class": "HNDWindow"
+      }
+    ],
+    "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+    "action": "resolve-tap",
+    "bundleId": "com.apple.assistivetouchd",
+    "ok": true,
+    "layoutToken": "78f7af2bdfa69199",
+    "ownerBundleId": "com.apple.assistivetouchd",
+    "desktopConsumed": true,
+    "pid": 6799,
+    "framePixels": [
+      526,
+      312,
+      122,
+      122
+    ],
+    "applicationState": 1,
+    "containerPath": "/var/mobile",
+    "ownerPid": 6799,
+    "bridgeVersion": "0.5.0",
+    "session": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+    "tapPixels": [
+      587,
+      373
+    ],
+    "targetNode": "p6799/w1/v0/v1",
+    "requestedAction": "tap"
+  },
+  "homeReceipt": {
+    "layoutTruncated": 0,
+    "dispatched": true,
+    "requiresVerification": true,
+    "ownerKind": "assistive-touch",
+    "route": "vnc",
+    "windows": [
+      {
+        "actions": [
+          "resolve-tap"
+        ],
+        "id": "w0",
+        "visible": true,
+        "label": "",
+        "interactive": true,
+        "enabled": true,
+        "identity": "0x1d596610",
+        "framePixels": [
+          0,
+          0,
+          640,
+          960
+        ],
+        "framePoints": [
+          0,
+          0,
+          320,
+          480
+        ],
+        "role": "window",
+        "labelSource": "accessibility-or-control",
+        "identifier": "",
+        "value": "",
+        "secure": false,
+        "windowLevel": 2206,
+        "class": "HNDIgnoredWindow"
+      },
+      {
+        "actions": [
+          "resolve-tap"
+        ],
+        "id": "w1",
+        "visible": true,
+        "label": "",
+        "interactive": true,
+        "enabled": true,
+        "identity": "0x1d599670",
+        "framePixels": [
+          0,
+          0,
+          640,
+          960
+        ],
+        "framePoints": [
+          0,
+          0,
+          320,
+          480
+        ],
+        "role": "window",
+        "labelSource": "accessibility-or-control",
+        "identifier": "",
+        "value": "",
+        "secure": false,
+        "windowLevel": 2206,
+        "class": "HNDWindow"
+      }
+    ],
+    "buildId": "2006d14a2c09855a1ff74d8da572c3a734417df4c41b02bc8868cf5436be05d8",
+    "action": "resolve-tap",
+    "bundleId": "com.apple.assistivetouchd",
+    "ok": true,
+    "layoutToken": "182a19a229394102",
+    "ownerBundleId": "com.apple.assistivetouchd",
+    "desktopConsumed": true,
+    "pid": 6799,
+    "framePixels": [
+      238,
+      572,
+      164,
+      190
+    ],
+    "applicationState": 1,
+    "containerPath": "/var/mobile",
+    "ownerPid": 6799,
+    "bridgeVersion": "0.5.0",
+    "session": "167D9D29-5DC8-41D8-8A3E-88E82CCA6874",
+    "tapPixels": [
+      320,
+      667
+    ],
+    "targetNode": "p6799/w1/v0/v1/v2",
+    "requestedAction": "tap"
+  },
+  "beforeForeground": "org.openrevive.TouchProbe",
+  "menuForeground": "org.openrevive.TouchProbe",
+  "afterForeground": "",
+  "afterSurface": "home",
+  "coordinatesCameFromTree": true,
+  "consumedRejected": true
+}

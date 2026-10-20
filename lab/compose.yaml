@@ -1,0 +1,72 @@
+name: openrevive-dns-ca-lab
+
+x-python: &python
+  image: python:3.13-alpine@sha256:2d9aefe2fef018a7eb2c13064c89c71929800fd2e5dccdbf52ea5da5bb8d929a
+  read_only: true
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  mem_limit: 96m
+  cpus: 0.25
+  pids_limit: 64
+  environment:
+    PYTHONDONTWRITEBYTECODE: '1'
+    PYTHONUNBUFFERED: '1'
+
+services:
+  dns:
+    image: coredns/coredns:1.13.1@sha256:9b9128672209474da07c91439bf15ed704ae05ad918dd6454e5b6ae14e35fee6
+    command: [-conf, /etc/coredns/Corefile]
+    read_only: true
+    cap_drop: [ALL]
+    cap_add: [NET_BIND_SERVICE]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 64m
+    cpus: 0.25
+    pids_limit: 64
+    volumes:
+      - ./dns:/etc/coredns:ro
+    ports:
+      - '127.0.0.1:1053:53/udp'
+      - '127.0.0.1:1053:53/tcp'
+    networks:
+      isolated:
+        ipv4_address: 172.30.53.2
+
+  web:
+    <<: *python
+    command: [python, -B, /lab/server.py]
+    volumes:
+      - ./server.py:/lab/server.py:ro
+      - ../.openrevive/dns-ca-lab/server:/certs:ro
+    ports:
+      - '127.0.0.1:18080:8080'
+      - '127.0.0.1:18443:8443'
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; assert urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2).status == 200"]
+      interval: 15s
+      timeout: 3s
+      retries: 10
+    networks:
+      isolated:
+        ipv4_address: 172.30.53.3
+
+  client:
+    <<: *python
+    profiles: [tools]
+    entrypoint: [python, -B, /lab/check.py]
+    command: [all]
+    dns: [172.30.53.2]
+    volumes:
+      - ./check.py:/lab/check.py:ro
+      - ../.openrevive/dns-ca-lab/ca/root.pem:/trust/root.pem:ro
+    networks: [isolated]
+
+networks:
+  isolated:
+    # A dedicated bridge keeps resolver configuration per client. Unlike an
+    # internal network, it also supports OrbStack's loopback port forwarding.
+    internal: false
+    enable_ipv6: false
+    ipam:
+      config:
+        - subnet: 172.30.53.0/24

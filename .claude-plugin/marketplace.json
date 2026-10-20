@@ -1,0 +1,21 @@
+{
+  "name": "openrevive-local",
+  "metadata": {
+    "description": "Local OpenRevive tools for legacy MacBooks and Xcode."
+  },
+  "owner": {
+    "name": "oz"
+  },
+  "plugins": [
+    {
+      "name": "openrevive",
+      "source": "./plugins/openrevive",
+      "description": "Control legacy MacBooks, Xcode and USB iPhone UIKit/multitouch over SSH.",
+      "version": "0.8.0",
+      "author": {
+        "name": "oz"
+      },
+      "category": "development"
+    }
+  ]
+}

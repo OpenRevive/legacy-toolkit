@@ -1,0 +1,21 @@
+[req]
+distinguished_name = root_name
+prompt = no
+
+[root_name]
+CN = OpenRevive Lab Root CA
+O = OpenRevive local experiment
+
+[root_ca]
+basicConstraints = critical,CA:true,pathlen:0
+keyUsage = critical,keyCertSign,cRLSign
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always
+
+[server_cert]
+basicConstraints = critical,CA:false
+keyUsage = critical,digitalSignature,keyEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = DNS:hello.openrevive.test
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer

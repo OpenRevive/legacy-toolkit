@@ -1,0 +1,53 @@
+{
+  "state": {
+    "frontmostBundleId": "",
+    "uid": 0,
+    "screenLocked": false,
+    "passcodeEnabled": false,
+    "lockStateAvailable": true
+  },
+  "systemContext": {
+    "iconPage": 0,
+    "surface": "home",
+    "frontmostPid": 0,
+    "screenPixels": [
+      0,
+      0,
+      768,
+      1024
+    ],
+    "visibleWindowIdentities": [
+      "0xf8409c0:SBAppWindow",
+      "0x4a61e0:UIStatusBarWindow"
+    ],
+    "session": "6B6AF80D-A871-495C-93FC-98054C7AABCF",
+    "frontmostBundleId": "",
+    "alertIdentity": "0x0",
+    "screenLocked": false,
+    "alertClass": "",
+    "token": "0:0x0:0:0:0:0xf8409c0:SBAppWindow,0x4a61e0:UIStatusBarWindow",
+    "passcodeEnabled": false,
+    "pid": 2614,
+    "switcherVisible": false,
+    "notificationCenterVisible": false
+  },
+  "visibleLabels": [
+    "Safari",
+    "Mail",
+    "Photos",
+    "Music",
+    "Messages",
+    "Calendar",
+    "Notes",
+    "Reminders",
+    "Maps",
+    "YouTube",
+    "Videos",
+    "Contacts",
+    "Game Center",
+    "iTunes",
+    "App Store",
+    "Newsstand",
+    "Settings"
+  ]
+}

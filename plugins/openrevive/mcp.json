@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "openrevive": {
+      "type": "stdio",
+      "command": "/bin/sh",
+      "args": ["./mcp/launch.sh"],
+      "cwd": "."
+    }
+  }
+}
