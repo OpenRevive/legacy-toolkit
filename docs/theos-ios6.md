@@ -16,9 +16,8 @@ The installer pins its source inputs in `tools/theos/pins.json`, installs missin
 `make`/`ldid` formulae, and builds a native arm64 cctools/ld64 under `~/theos`.
 
 ```sh
-curl -fLO https://openrevive.org/downloads/theos-ios6-source.zip
-unzip theos-ios6-source.zip
-cd openrevive-theos-ios6
+git clone https://github.com/OpenRevive/legacy-toolkit.git
+cd legacy-toolkit
 python3 tools/theos/bootstrap.py
 . tools/theos/env.sh
 python3 tools/theos/doctor.py
@@ -143,8 +142,3 @@ Only this named phone/OS and the example's UIKit/Foundation API set were
 physically accepted. ARMv6, separate ARMv7s output, other phones/iPads, stock
 iOS signing, Swift, ARC compatibility backports and complete WakeApp builds
 remain untested by this recipe.
-
-The standalone public ZIP includes only this example, its build/deploy scripts
-and this guide. OpenRevive's other repository contents are not distribution
-inputs. The deployer uses Python's standard library and honors an existing local
-OpenRevive fence and command lock without importing the toolkit package.
