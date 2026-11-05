@@ -22,6 +22,14 @@ from verify import EXAMPLE, verify
 ROOT = Path(__file__).resolve().parents[2]
 
 
+def check_control(udid):
+    """Honor an existing toolkit fence without requiring its private package."""
+    root = Path(os.environ.get('OPENREVIVE_SUPERVISOR_ROOT', Path.home()/'.config/openrevive/supervisor'))
+    fence = root/'fences'/(hashlib.sha256(udid.encode()).hexdigest()+'.json')
+    if fence.exists():
+        raise RuntimeError('The device has an OpenRevive control fence; inspect and reconcile its original operation before deployment')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--udid', required=True)
@@ -40,8 +48,6 @@ def main():
     ipa = EXAMPLE/'build/ORTheosProbe.ipa'
     deb = max((EXAMPLE/'packages').glob('*.deb'), key=lambda p:p.stat().st_mtime)
     artifacts = verify(ipa, deb)
-    sys.path.insert(0, str(ROOT/'plugins/openrevive/skills/legacy-mac/scripts'))
-    from device_sessions import check_control
     check_control(args.udid)
     locks = Path(os.environ.get('XDG_CONFIG_HOME', Path.home()/'.config'))/'openrevive/locks'
     locks.mkdir(parents=True, exist_ok=True, mode=0o700)
