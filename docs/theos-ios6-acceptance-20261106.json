@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-06",
+  "host": {
+    "chip": "Apple M4 Max",
+    "macos": "26.6.2",
+    "xcode": "27.1 (27A9275)",
+    "clang": "21.0.0",
+    "host_architecture": "arm64",
+    "remote_build": false
+  },
+  "device": {
+    "ProductType": "iPhone5,2",
+    "ProductVersion": "6.1.4",
+    "BuildVersion": "10B350"
+  },
+  "pins": {
+    "theos": "6e7b8c40e0f5f9f5b2377800dc1e42cd2560d24a",
+    "cctools-port": "904de2a71d4da6a9b30d2efaf912a10ddc7d9ddb",
+    "legacy-sdk": "189a487850e3351cf624b5cef9c8317138c89b05",
+    "legacy-sdk-archive-sha256": "7457837f7fe9fce8ec41b524f877b609683edee4998b6d041940cc543b718afb"
+  },
+  "artifacts": {
+    "application": {
+      "architecture": "armv7",
+      "minimum_ios": "6.0",
+      "sdk": "6.1",
+      "signature": [
+        {
+          "algorithm": "sha1",
+          "pages": 13
+        }
+      ],
+      "libraries": [
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Foundation",
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+        "/System/Library/Frameworks/UIKit.framework/UIKit",
+        "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "sha256": "90bd3d22013db3252c9668278e6eeff12ddd49a7ef40fd9b4bbb54a0e38f5325"
+    },
+    "tool": {
+      "architecture": "armv7",
+      "minimum_ios": "6.0",
+      "sdk": "6.1",
+      "signature": [
+        {
+          "algorithm": "sha1",
+          "pages": 13
+        }
+      ],
+      "libraries": [
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Foundation",
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+        "/System/Library/Frameworks/UIKit.framework/UIKit",
+        "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "sha256": "ddc08e86caf95d639d177fcd3aa1a8ea41a9bf494e455984243b2e87e212a3ff"
+    },
+    "ipa_sha256": "e7d56b0b4749b95bf05043d6a781f102a42947bdf8eef8656743546f7f09be80",
+    "deb_sha256": "9edce49ea19549769fa8e53f3f0d44d058c65e536b5e25afe5b0a2537474d778"
+  },
+  "runtime": {
+    "nonce": "77c1f19e3b8e448ab1d1686fd99c9854",
+    "architecture": "armv7",
+    "result": "OPENREVIVE_THEOS_DEVICE_OK",
+    "os": "Version 6.1.4 (Build 10B350)",
+    "hardware": "iPhone5,2"
+  },
+  "app_receipt": {
+    "nonce": "77c1f19e3b8e448ab1d1686fd99c9854",
+    "event": "url",
+    "button_taps": 0,
+    "ios": "6.1.4",
+    "bundle_id": "org.openrevive.theosprobe",
+    "architecture": "armv7",
+    "timestamp": 1793913368.572402,
+    "version": "1.0.0",
+    "hardware": "iPhone5,2",
+    "sdk": "6.1",
+    "minimum_ios": "6.0"
+  },
+  "foreground": {
+    "frontmost_bundle_id": "org.openrevive.theosprobe"
+  },
+  "screenshot_sha256": "7d197ab0a2249572faf67cc87c0302675723b2dacce95584d3add1aac99e6711",
+  "deploy_method": "USB iproxy + root SSH + existing AppSync/appinst, IPA installed; DEB not installed",
+  "physical_button_tap_tested": false
+}

@@ -1,0 +1,9 @@
+Package: org.openrevive.theosprobe
+Name: OpenRevive Theos Probe
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A local ARMv7 build and native iOS 6 deployment probe.
+Maintainer: OpenRevive
+Author: OpenRevive
+Section: Development
+Depends: firmware (>= 6.0)
